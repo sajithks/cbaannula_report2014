@@ -1,0 +1,54 @@
+%
+% annualreport.sty, a short LaTeX template
+%   A4 sized
+%
+% Usage:
+% \documentstyle[annualreport]{article}
+% \begin{document}
+% \end{document}
+
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 2em%
+  \begin{center}%
+    {\LARGE \@title \par}%
+    \vskip 1.5em%
+    {\large
+      \lineskip .5em%
+      \small
+      \begin{tabular}[t]{c}%
+         \@author 
+      \end{tabular}\par}%
+    \vskip 1em%
+  \end{center}%
+  \par
+  \vskip 1.5em }
+
+% Place floats manually
+\def\topfraction{1.0}
+\def\dbltopfraction{1.0}
+\def\bottomfraction{1.0}
+\def\textfraction{0.0}
+\def\floatpagefraction{0.8}
+\def\dblfloatpagefraction{0.8}
+
+\textheight        23.5cm
+\textwidth         16cm
+\parindent         1em
+
+\oddsidemargin -0.79cm
+\evensidemargin \oddsidemargin
+\topmargin -0.54cm
+\headheight 0pt
+\headsep 0pt
+
+\columnsep 0.2in
+\columnseprule 0pt
+
+\def\mylabel#1{
+                \write\@auxout{
+                    \string\newlabel{#1}{{\thefigure}{0}}
+                }
+            }
+

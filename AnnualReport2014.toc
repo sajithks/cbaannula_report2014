@@ -1,0 +1,42 @@
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}
+\contentsline {subsection}{\numberline {1.1}General background}{5}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Summary of research}{6}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}How to contact CBA}{7}{subsection.1.3}
+\contentsline {section}{\numberline {2}Organisation}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}Finances}{8}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Staff, CBA}{11}{subsection.2.2}
+\contentsline {section}{\numberline {3}Undergraduate education}{13}{section.3}
+\contentsline {subsection}{\numberline {3.1}UU courses}{13}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Master theses}{13}{subsection.3.2}
+\contentsline {section}{\numberline {4}Graduate education}{19}{section.4}
+\contentsline {subsection}{\numberline {4.1}Graduate courses}{19}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Dissertations}{21}{subsection.4.2}
+\contentsline {section}{\numberline {5}Research}{25}{section.5}
+\contentsline {subsection}{\numberline {5.1}Forestry related applications}{25}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Analysis of microscopic biomedical images}{28}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}3D analysis and visualization}{45}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Theory: discrete geometry, mathematical morphology and volume processing}{54}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Other projects}{57}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Cooperation partners}{62}{subsection.5.6}
+\contentsline {section}{\numberline {6}Publications}{64}{section.6}
+\contentsline {subsection}{\numberline {6.1}Edited conference proceedings}{64}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Journal articles}{65}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Refereed conference proceedings}{76}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Non-refereed conferences and workshops}{82}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Other publications}{84}{subsection.6.5}
+\contentsline {section}{\numberline {7}Activities}{85}{section.7}
+\contentsline {subsection}{\numberline {7.1}ICPR 2014}{85}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Organizing committee}{85}{subsubsection.7.1.1}
+\contentsline {subsection}{\numberline {7.2}Organized conferences and workshops}{85}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Seminars held outside CBA}{87}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Seminars at CBA}{88}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Conference participation}{91}{subsection.7.5}
+\contentsline {subsubsection}{\numberline {7.5.1}Special invited speaker}{91}{subsubsection.7.5.1}
+\contentsline {subsubsection}{\numberline {7.5.2}Oral presentations -- refereed conferences}{92}{subsubsection.7.5.2}
+\contentsline {subsubsection}{\numberline {7.5.3} Poster presentations -- refereed conferences}{93}{subsubsection.7.5.3}
+\contentsline {subsubsection}{\numberline {7.5.4} Oral presentations -- non-refereed conferences}{94}{subsubsection.7.5.4}
+\contentsline {subsubsection}{\numberline {7.5.5}Poster presentations -- non-refereed conferences}{95}{subsubsection.7.5.5}
+\contentsline {subsubsection}{\numberline {7.5.6}Attended conferences}{96}{subsubsection.7.5.6}
+\contentsline {subsection}{\numberline {7.6}Visiting scientists}{100}{subsection.7.6}
+\contentsline {subsection}{\numberline {7.7}Visits to other research groups}{100}{subsection.7.7}
+\contentsline {subsection}{\numberline {7.8}Committees}{101}{subsection.7.8}

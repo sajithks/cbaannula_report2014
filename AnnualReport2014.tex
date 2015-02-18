@@ -1,0 +1,236 @@
+% Last thing:
+%     Page numbers,
+%     Confirm with printers that the colors are correct.
+ 
+
+
+%\documentclass[]{letter}
+\documentclass[11pt,twoside,a4paper,titlepage]{article}
+%\newif\ifpdf\ifx\pdfoutput\undefined\pdffalse\else\pdfoutput=1\pdftrue\fi
+\newcommand{\pdfgraphics}{\ifpdf\DeclareGraphicsExtensions{.pdf,.jpg}\else\fi}
+\usepackage{times}
+\usepackage{annualreport,epsfig,graphics,amssymb, psfrag}
+\usepackage{subfigure}
+\usepackage{layout}
+\input{epsf}
+%\usepackage[utf8]{inputenc}
+\usepackage[latin1]{inputenc} % For Swedish character set
+\usepackage[pdftex]{hyperref} % Fr att f hyperlnkar i pdf-filen
+\usepackage{color}
+\usepackage{textcomp} % Fr \textmu
+\usepackage{pdfpages} % Fr \includepdf.
+
+%% Control the fonts and formatting used in the table of contents.
+%\usepackage[titles]{tocloft}
+%% Aesthetic spacing redefines that look nicer to me than the defaults.
+%\setlength{\cftbeforechapskip}{2ex}
+%\setlength{\cftbeforesecskip}{0.5ex}
+
+\newcommand{\whitefigtext}[1]{\put(-4,4){\makebox(0,0)[br]{\textcolor[named]{White}{#1}}}}
+\newcommand{\comment}[1]{} % en kommentar.
+\newcommand{\partners}{\emph{Partners:~}}
+\newcommand{\period}{\emph{Period:~}}
+\newcommand{\aabstract}[1]{\emph{Abstract:~}#1}
+\newcommand{\aauthor}[1]{\emph{Author:~}#1\\}
+\newcommand{\aauthors}[1]{\emph{Authors:~}#1\\}
+\newcommand{\bbook}[1]{\emph{Book:}~#1\\}
+\newcommand{\ccomment}[1]{\emph{Comment:~}#1\\}
+\newcommand{\cconference}[1]{\emph{Conference:~}#1}
+\newcommand{\eeditor}[1]{\emph{Editor:~}#1\\}
+\newcommand{\eeditors}[1]{\emph{Editors:~}#1\\}
+\newcommand{\ffunding}[1]{\emph{Funding:~}#1\\}
+\newcommand{\jjournal}[1]{\emph{Journal:~}#1}
+\newcommand{\ppartner}[1]{\emph{Partner:~}#1\\}
+\newcommand{\pproceedings}[1]{\emph{In Proceedings:~}#1}
+\newcommand{\ppartners}[1]{\emph{Partners:~}#1\\}
+\newcommand{\ppublisher}[1]{\emph{Publisher:~}#1}
+\newcommand{\pperiod}[1]{\emph{Period:~}#1\\}
+\newcommand{\ttitle}[1]{\item \textbf{#1}\\}
+
+\newcommand{\cba}{CBA}
+\newcommand{\uu}{UU}
+
+\hyphenation{Upp-sala}
+\hyphenation{national}
+%\newcommand{\ssba}{SSBA Symposium on Image Analysis, Lund}
+%\newcommand{\medtek}{Medicinteknikdagarna, Gteborg}
+%\newcommand{\sigrad}{SIGRAD 2008: The Annual SIGRAD Conference Special Theme: Interaction, Stockholm}
+%\newcommand{\icpr}{19th International Conference on Pattern Recognition (ICPR 2008), Tampa, Florida, USA}
+
+
+
+
+\begin{document}
+%\pdfgraphics
+
+% OBS, ngon bugg gr att frgerna ser lustiga ut med acrobat reader i linux
+% men det r ok med evince och ar i windows. Dubbelkolla med tryckeriet om det
+% hr. Alternativ kan vara att sl ihop med acrobats mjukvara.
+%\includepdf[pages=1]{front.pdf} 
+
+%\thispagestyle{empty}
+%Cover:\\ \noindent
+%\includegraphics[width=1.0\textwidth]{./FRONTIMAGES/AnnualReport2014_cover_A3.pdf}
+%\newpage
+\comment{
+\begin{titlepage}
+
+\begin{center}
+
+\includegraphics[width=0.80\textwidth, bb=74 718 415 771, clip]{FRONTIMAGES/CBA_logo_engelsk_valfrifarg.pdf}
+\end{center}
+
+\vspace*{3mm}
+
+\center{\sc\Huge
+Annual Report 2014
+}
+
+\vspace*{29mm}
+
+\begin{center}
+%\includegraphics[scale = 3]{FRONTIMAGES/robin2.png}
+%\includegraphics[scale = 0.8]{FRONTIMAGES/patrick.png}
+\end{center}
+
+
+\begin{center}
+\hspace*{5mm}
+\includegraphics[width=0.18\textwidth,viewport=0 -70 269 276, clip]{FRONTIMAGES/SLUco.pdf}
+\hfill
+\includegraphics[width=0.18\textwidth, bb=35 44 203 203, clip]{FRONTIMAGES/UU_logo_4f_84.pdf}
+\end{center}
+\end{titlepage}
+}
+
+\title{
+\thispagestyle{empty}
+\bf\Huge
+Annual Report 2014
+}
+
+\author{
+\bf\Huge{Centre for Image Analysis}\\[14mm]
+\bf\Huge{Centrum f\"{o}r bildanalys}\\\\
+%Version:
+}
+\date{}
+
+\thispagestyle{empty}
+\maketitle
+
+\thispagestyle{empty}
+
+\newpage
+
+\vspace*{3cm}
+
+\noindent
+\emph{Cover:\/} Illustrations from the seven PhD theses presented at CBA during 2014. Further information in Section \ref{phd}.
+
+\vspace*{1cm}
+
+\noindent
+{\bf Top, left}\\
+\emph{Andreas K{\aa}rsn\"{a}s} --- Automatic detection of sub-cellular structures in breast tumour tissue for the quantification of sub-cellular protein expression levels.
+
+\vspace*{1cm}
+
+\noindent
+{\bf Top, left}\\
+\emph{Erik Wernersson} --- Selection of a wood fibre from a paper sheet for further characterisation. 
+
+\vspace*{1cm}
+
+\noindent
+{\bf Top, left}\\
+\emph{Jimmy Azar} --- Multi-instance based feature descriptor of a tissue image: automatic extraction of lumen areas and profiling of surrounding regions by means of a progressively expanding set of neighborhood sampling rings.
+
+\vspace*{1cm}
+
+\noindent
+{\bf Top, left}\\
+\emph{Lennart Svensson} --- The image series shows exploration of template matching results in an electron microscopy volume image. Left and center images: two example registrations of a template IgG molecule. Right image: visualization of the template to volume correlation for different rotations of the template.
+
+\vspace*{1cm}
+
+\noindent
+{\bf Top, left}\\
+\emph{Gustaf Kylberg} --- 
+Examples of classes in the Kylberg Texture Dataset. The texture samples are intensity normalized to have the same mean and standard deviation.
+
+\vspace*{1cm}
+
+%
+%\newpage
+%
+%\vspace*{3cm}
+%
+%\noindent
+%
+%%\emph{Cover:\/} Illustration of the project \textit{Optical Character Recognition of Handwritten Texts} with figures from the publication Graphs Based Line Segmentation on Cluttered Handwritten Manuscripts by F.~Wahlberg and A.~Brun (Publication 6.2.18 in this report). %Illustrations from the five PhD theses presented at CBA during 2011. Further information in Section \ref{phd}.
+%
+%\vspace*{1cm} 
+%
+%%\noindent
+%%Top left: One spread from a medieval manuscript from the Uppsala University Library.\\ \noindent
+%%Right: Segmentation into text lines using vertical projection profiles of the binarized image.\\ \noindent
+%%Bottom left: Text line refinement.%Then the cuts between lines are refined using a graph based method.
+
+\vfill
+\noindent 
+{\em Cover design:\/}\\
+Anton Axelsson\\%Gunilla Borgefors\\
+\\
+{\em Edited by:\/}\\
+Gunilla Borgefors, Omer Ishaq,  Filip Malmberg, Lena Nordstr\"{o}m, Ingela Nystr\"{o}m, Ida-Maria Sintorn, Robin Strand\\
+\\
+Centre for Image Analysis, Uppsala, Sweden\\
+\\
+%Printed in Sweden by the University Printers, Uppsala University, 2014
+%\today
+\\
+\\
+%There are some additions in the online version (this document) compared to the printed version.% contains some additions.
+\addtolength\textheight{2in}
+\newpage
+\thispagestyle{empty}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\addtolength\textheight{-2in}
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+\setcounter{page}{5}
+
+
+\input AR2014_introduction.tex
+\newpage
+%
+\input AR2014_organization.tex
+\newpage
+%
+\input AR2014_undergraduate.tex
+\newpage
+%
+\input AR2014_graduate.tex
+\newpage
+
+\input AR2014_research.tex
+\newpage
+\input AR2014_copartners.tex
+%\newpage
+
+\input AR2014_publications.tex
+\newpage
+%%
+\input AR2014_activities.tex
+%%\newpage
+
+\newpage
+
+
+\input AR2014_committees.tex
+
+\end{document}
