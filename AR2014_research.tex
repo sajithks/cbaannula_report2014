@@ -105,7 +105,7 @@ Cellulose 21(6):3941-3950, and Mechanics of Materials 75:125-136.}
 	\centering
 
 	\includegraphics[width=0.48\linewidth]{figures/research/eric.png}
-	\caption{pending}
+	\caption{\color{red}pending}
 	\label{fig:woodseg}
 \end{figure*}
 %----------------------------------------------------------------------------------------------------------------------------------------------
@@ -168,9 +168,9 @@ Erik Wernersson, Cris Luengo \\
 \textbf{Identification of Highly Pathogenic Viruses in Transmission Electron Microscopy Images} \label{proj:PVS2}
 Gustaf Kylberg, Ida-Maria Sintorn, Ewert Bengtsson, Gunilla Borgefors\\
 \ppartner{Vironova AB; Delong Instruments, Brno, Czech Republic; Ali Mirazimi, Kjell-Olof H\"{o}glund, Centre for Microbiological Preparedness; Swedish Institute for Infectious Disease Control (SMI)}
-\ffunding{Swedish Civil Contingencies Agency (MSB); Swedish Defense Materiel Administration (FMV); Swedish Agency for Innovative Systems (VINNOVA). Eurostar project E!6143}
+\ffunding{2008--2011 Swedish Civil Contingencies Agency (MSB); Swedish Defense Materiel Administration (FMV); Swedish Agency for Innovative Systems (VINNOVA). 2011--2013 Eurostar project E!6143}
 \pperiod{0801--}
-\aabstract{This project aims at automating the virus identification process in high resolution TEM images. This, in combination with Project \ref{proj:PVS1} create a rapid, objective, and user independent virus diagnostic system. The identification task consists of method development for segmenting virus particles with different shapes and sizes and extracting descriptive features of both shape and texture to enable the classification into virus species. Texture features such as variants of Local Binary Patterns and Regional Moments (filter banks constructed from orthogonal moments), are being evaluated on virus textures as well as other texture datasets to get a deeper understanding of the discriminant power of the features under different conditions. A paper evaluating the discriminating power and noise robustness for Local Binary Pattern variants was published during 2013, and a poster about the project was presented at the Microscopy Conference in Regensburg, Germany in August.} 
+\aabstract{This project aims at automating the virus identification process in high resolution TEM images. This, in combination with Project \ref{proj:PVS1} to create a rapid, objective, and user independent virus diagnostic system. The identification task consists of method development for segmenting virus particles with different shapes and sizes and extracting descriptive features of both shape and texture to enable the classification into virus species. Texture features such as variants of Local Binary Patterns and Regional Moments (filter banks constructed from orthogonal moments), are being evaluated on virus textures as well as other texture datasets to get a deeper understanding of the discriminant power of the features under different conditions. A paper comparing, combining and evaluating the discriminating power of local texture descriptors for virus classification was presented at the International Conference on Pattern Recognition (ICPR) in Stockholm in August and Gustaf Kylberg defended his PhD thesis closely linked to this project in March.} 
 
 % BBB
 
@@ -179,27 +179,38 @@ Gustaf Kylberg, Ida-Maria Sintorn, Ewert Bengtsson, Gunilla Borgefors\\
 Gustaf Kylberg, Ida-Maria Sintorn, Ewert Bengtsson, Gunilla Borgefors\\
 \ppartner{Vironova AB; Delong Instruments, Brno, Czech Republic}
 \ffunding{Eurostar project E!6143}
-\pperiod{1107--}
+\pperiod{1107--1310}
 \aabstract{Transmission electron microscopy (TEM) is an important clinical diagnostic and material analysis tool. Transmission electron microscopes are expensive, complex, sensitive and bulky machines, often housed in specially built rooms to avoid vibrations affecting the imaging process. They are to a very large extent manually operated, meaning that an expert in electron microscopy and preferably also in the  application at hand needs to perform the analysis at the microscope, an often very time consuming task. 
- 
-This project aims at developing the miniTEM, shown in Figure~\ref{fig:miniTEM}(left), a desk-top low voltage TEM designed for imaging biological samples, with a high degree of automation regarding instrument alignment, image acquisition and analysis. The goal is a small, cheap, robust, and easy to use system that requires no more training than any simple lab equipment, and can be hosted in any office or lab (even mobile).
+	
+This project aimed at developing the MiniTEM, a desk-top low voltage TEM designed for imaging biological samples, with a high degree of automation regarding instrument alignment, image acquisition and analysis. The goal was a small, cheap, robust, and easy to use system that requires no more training than any simple lab equipment, and can be hosted in any office or lab (even mobile).
+	
+Automating the image acquisition process is key for reducing the manual input and making the imaging and analysis more objective. Within the project different strategies for automating the image acquisition were developed and investigated. The first was acquisition of images at random positions on the grid. The second was to search for a specific structure/object and only acquire (store) the images containing the structure/object of interest. The third was similar to the second approach but embedded in a multi-scale approach with the goal to make the acquisition more efficient.
+	
+The MiniTEM was launched and displayed at the International Microscopy Congress in Prague in September. One instrument was at the conference site and a second piece, physically in Stockholm, was operated remotely from Prague. Abstracts and posters about the project, the developled image analysis methods, and actual instrument, have been presented at various international and national conferences and meetings throughout the year. Gustaf Kylberg successfully defended his PhD thesis early 2014, which was closely linked to this project. The MiniTEM, its GUI and two example images showing a mixture of typical clinical application areas are shown in Figure \ref{fig:miniTEM}.}
 
-Automating the image acquisition process is key for reducing the manual input and making the imaging and analysis more objective. A few different options for automated image acquisition are being developed and will be incorporated in the instrument. The first is acquisition of images at random positions on the grid. The second is to search for a specific structure/object and only acquire (store) the images containing the structure/object of interest. The third is similar to the second approach but embedded in a multi-scale approach with the goal to make the acquisition more efficient.
+\begin{figure}[!h]
+	\centering
+	
+	\subfigure[]{\includegraphics[width=0.4\linewidth]{figures/research/MiniTEM_Instrumentsmallercut.png}}
+	\subfigure[]{\includegraphics[width=0.4\linewidth]{figures/research/MiniTEMGUIAR2013screenshot.png}}\\
+	\subfigure[]{\includegraphics[width=0.4\linewidth]{figures/research/MiniTEMKidneyforAR2013.png}}
+	\subfigure[]{\includegraphics[width=0.4\linewidth]{figures/research/MiniTEMAdenoRotaAr2013_FOV500nm.png}}
+		\caption{The MiniTEM instruments, its GUI and images of a filtering membrane in a kidney section and a mixture of Adeno and Rota viruses. \label{fig:miniTEM}}
+	
+	\end{figure}
 
-The very first images from the miniTEM were acquired at the end of 2013. An example image of nanotubes with an approximate thickness of 15nm are shown in Figure~\ref{fig:miniTEM}(right). Work on optimizing the sample preparation procedure for improved electron transmittance was presented at the Microscopy Conference in Regensburg, Germany in August.}
-
-\begin{figure*}[!h]
-\centering
-\subfigure[]{\includegraphics[width=0.36\linewidth]{figures/research/miniTEMLarge.png}}
-\subfigure[]{\includegraphics[width=0.48\linewidth]{figures/research/miniTEMnanotubulescutwider.png}}
-\caption{Desk-top and mobile version of the miniTEM (left). Nanotubes, approximately 15nm thick, the first image acquired with the miniTEM (right).}
-\label{fig:miniTEM}
-\end{figure*}
+%\begin{figure*}[!h]
+%\centering
+%\subfigure[]{\includegraphics[width=0.36\linewidth]{figures/research/miniTEMLarge.png}}
+%\subfigure[]{\includegraphics[width=0.48\linewidth]{figures/research/miniTEMnanotubulescutwider.png}}
+%\caption{Desk-top and mobile version of the miniTEM (left). Nanotubes, approximately 15nm thick, the first image acquired with the miniTEM (right).}
+%\label{fig:miniTEM}
+%\end{figure*}
 
 % CCC
 \vspace*{-2mm}
 \item 
-\textbf{Detection and Localization of Florescent Signals in STORM Data Using Compressed Sensing}\\
+\textbf{\color{red}Detection and Localization of Florescent Signals in STORM Data Using Compressed Sensing}\\
 Omer Ishaq, Alexandra Pacureanu, Carolina W\"{a}hlby\\
 \ppartners{Johan Elf, Gustaf Ullman, Fredrik Persson, Dept.~of Cell \& Molecular Biology, UU}
 \ffunding{SciLifeLab Uppsala, eSSENCE, VR junior researcher grant to CW}
@@ -211,15 +222,15 @@ Omer Ishaq, Alexandra Pacureanu, Carolina W\"{a}hlby\\
 \item 
 \textbf{\emph{In Situ} Sequencing of mRNA}\\
 Carolina W\"{a}hlby, Alexandra Pacureanu, Petter Ranefall \\
-\ppartners{Mats Nilsson, Rongqin Ke, Marco Mignardi, Thomas Hauling, SciLifeLab Stockholm}
+\ppartners{Mats Nilsson, Rongqin Ke, Marco Mignardi, Thomas Hauling, Xiaoyan Qian, SciLifeLab Stockholm/Stockholm University}
 \ffunding{SciLifeLab Uppsala; TN-faculty, UU}
 \pperiod{1109--}
-\aabstract{Profiling of gene expression is prerequisite for understanding the function of cells, organs and organisms, in health and disease. The sequencing techniques currently in use rely on homogenization of the samples. Therefore, the obtained information represents either the average expression profile of the tissue sample or expression profiles of isolated single cells. Our collaborators have developed a new molecular method, enabling \emph{in situ} sequencing of mRNA, so that protein expression can be observed directly in cultured cells or tissue samples. We have developed image analysis tools for automated analysis of sequencing data, mapping, and visualization of gene expression patterns (Fig. \ref{fig:carolina_insitu}). In 2013 we published a paper in Nature Methods and a conference paper focusing on the image analysis was accepted for publication in proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI), Beijing 2014.}
+\aabstract{Profiling of gene expression is prerequisite for understanding the function of cells, organs and organisms, in health and disease. The sequencing techniques currently in use rely on homogenization of the samples. Therefore, the obtained information represents either the average expression profile of the tissue sample or expression profiles of isolated single cells. Our collaborators have developed a new molecular method, enabling \emph{in situ} sequencing of mRNA, so that protein expression can be observed directly in cultured cells or tissue samples. We have developed image analysis tools for automated analysis of sequencing data, mapping, and visualization of gene expression patterns. In 2013 we presented the work as part of a Special Session on Advances in Computer-Aided Histopathology at the IEEE International Symposium on Biomedical Imaging (ISBI), Beijing 2014. The project was also presented at the 1st annual conference for the Society of Biomolecular Imaging and Informatics SBI2, at the JB Martin Conference Center at Harvard Medical School, Boston, MA, USA, where Carolina Wählby was honored with the 'SBI2 President's innovation award' for her presentation on 'Combining image-based \emph{in situ} RNA screening with quantitative analysis of cell and tissue morphology'.}
 
-\begin{figure}[!tb]
+\begin{figure}[!h]
 \centering
-\includegraphics[width=0.56\textwidth]{figures/research/insitu.png}
-\caption{\label{fig:carolina_insitu} Demonstrating the sensitivity of the sequencing method (finding rare mutants) - cell culture of ONCO-DG1 with wild type KRAS (GG) spiked with A549 cells (1:100) with mutant KRAS (AG). Note how the majority of the cells express the wild type gene (cyan), while a few express multiple copies of the mutated gene (pink).} 
+\includegraphics[width=0.85\textwidth]{figures/research/insitumrna.png}
+\caption{\label{fig:carolina_insitu} Coupling gene expression to cell and tissue morphology. The gene expression map was divided into patches of $100\times100$ pixels, and patches were clustered by k-means clustering (100 random seeds). The resulting spatial patterns (left) correlate with independent texture-based classification of an H\&E staining of the same tissue sample.} 
 \end{figure}
 
 % EEE
@@ -230,7 +241,7 @@ Omer Ishaq, Petter Ranefall, Carolina W\"{a}hlby\\
 \ppartners{Carl-Magnus Clausson, Linda Andersson, Ola S\"{o}derberg, Dept.~of Immunology, Genetics and Pathology}
 \ffunding{SciLife Lab Uppsala}
 \pperiod{1310--}
-\aabstract{Rolling circle amplification (RCA) performs nucleic acid replication for rapid synthesis of multiple concatenated copies of circular DNA. These molecules can be visually observed through the use of florescent markers. Moreover, the introduction of a compaction oligonucleotide during RCA results in brighter and more compact signals. The project aims to evaluate the effect of compaction oligonucleotides on the strength and integrity of florescent signals.}
+\aabstract{Rolling circle amplification (RCA) performs nucleic acid replication for rapid synthesis of multiple concatenated copies of circular DNA. These molecules can be visually observed through the use of florescent markers. Moreover, the introduction of a compaction oligonucleotide during RCA results in brighter and more compact signals. The project aims to evaluate the effect of compaction oligonucleotides on the strength and integrity of florescent signals. A manuscript has been submitted.}
 
 
 
@@ -242,45 +253,55 @@ Krist\'{i}na Lidayov\'{a}, Hans Frimmel, Ewert Bengtsson \\
 \ppartner{ \"{O}rjan Smedby, Chunliang Wang, Center for Medical Image Science and Visualization (CMIV), Link\"{o}ping University}
 \ffunding{VR grant to \"{O}rjan Smedby}
 \pperiod{1207--}
-\aabstract{Precise segmentation of vascular structures is crucial for studying the effect of stenoses on arterial blood flow. The goal of this project is to develop and evaluate vascular segmentation, which will be fast enough to permit interactive clinical use. The first part is the extraction of the centerline tree (skeleton) from the gray-scale CT image. Later this skeleton is used as a seed region (Figure \ref{fig:Skeleton}). The method should offer sub-voxel accuracy.
-
-During the last year we improved the software for fast vessel centerline tree extraction. The method has been tested on several CT datasets and the results look promissing. Generally all main vessel centerlines are detected, but some improvement  needs to be done in order to remove some false positive centerlines.}
+\aabstract{Precise segmentation of vascular structures is crucial for studying the effect of stenoses on arterial blood flow. The goal of this project is to develop and evaluate vascular segmentation, which will be fast enough to permit interactive clinical use. The first part is the extraction of the centerline tree (skeleton) from the gray-scale CT image. Later this skeleton is used as a seed region. The method should offer sub-voxel accuracy. 
+	
+During 2013 we improved the software for fast vessel centerline tree extraction. The method has been tested on several CT data and the results look promissing. Generally main vessel centerlines are detected, but an improvement  needs to be done in order to remove some false positive centerlines. 
+	
+In year 2014 we improved the software to its final stage. It works on the original Computed Tomography Angiography (CTA) image as the input and produces a node-link representation of the vascular structures for the lower limbs. The method (Figure. \ref{fig:krstinapipeline}) works in two passes: first pass extracts the skeleton of large arteries, and second pass focus on extracting small arteries. Each pass contains three major steps: (1) sets proper intensity ranges for different anatomy structures based on Gaussian curve fitting to the image histogram; (2) apply different filters to detect voxels that are part of arteries, where filters are designed based on intensity and size analysis of ellipse shape on 2-D planes; (3) connect nodes to obtain a centerline tree for the entire vasculature. The method has been tested on 25 CTA scans of the lower limbs (Figure. \ref{fig:krstinacomparison}) and achieved an average of 96\% overlap rate with ground truth. The average computational time is 121 sec/scan.
+	
+A paper summarizing this work was written and was sent to a Special issue of Pattern Recognition Letters on skeletonization and its applications. At the current stage the paper is under major revision. The work was pressented at SSBA conference and Medicinteknikdagarna.}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=85mm,height=104mm]{figures/research/kristina_fibula.png}
-\caption{\label{fig:Skeleton}
-Vessel centerline tree extraction in a CT dataset containing lower part of the leg. For clarity the resulting centerline is dilated and marked by purple color.  The manual segmentation is shown by yellow color. All main vessel and some additional false positive centerlines around the knee area have been detected.} 
+\includegraphics[width=0.7\textwidth]{figures/research/kristinapipeline.pdf}
+\caption{Flow chart of the proposed method}
+\label{fig:krstinapipeline} 
+
 \end{figure}
 
-% FFF
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/research/kristinacomparison.pdf}
+	\caption{Ground truth skeleton in blue colour and resulting skeleton in red colour are shown for two cases from a clinical routine. The case on the right side contains an occluded segment in the femoral artery and severe stenoses.} 
+	\label{fig:krstinacomparison}
+\end{figure}
 
-\item 
-\textbf{Computational Methods for Quantification in Neural Stem Cells}\\
-Alexandra Pacureanu, Carolina W\"{a}hlby, Martin Simonsson\\
-\ppartners{Karin Forsberg-Nilsson, Tanja Paavilainen, Soumi Kundu, Grzegorz Wicher, Lisa Rebello, Anqi Xiong, Tobias Bergstr\"{o}m, Dept.~of Immunology, Genetics and Pathology, Rudbeck Laboratory, SciLifeLab Uppsala}
-\ffunding{SciLifeLab Uppsala}
-\pperiod{1210--}
-\aabstract{Neural stem cells are the building blocks of the nervous system. In the view of finding better treatments for neurodegenerative diseases and for deeper understanding of mammalian development, our collaborators are investigating how neural stem cells proliferate and differentiate and which factors govern these processes. For these studies, thousands of images of cell cultures need to be quantitatively analyzed, in order to determine for example how effective are various techniques for control of the stem cells differentiation. Based on CellProfiler and CellProfiler Analyst, we have developed methods for automatic analysis of these images (Fig. \ref{fig::stem_cells}). In 2013, the master thesis of Tanja Paavilainen has been successfully completed and we continued the collaboration with researchers from the Karin Forsberg group. For example, we have been working together with Tobias Bergstr\"{o}m on quantification of the OLIG2 expression in different glioma cell lines and with Soumi Kundu on blood vessels segmentation.}
-\clearpage
-\begin{figure*}[!htbp]
-\centering
-\subfigure[]{\includegraphics[width=0.4\textwidth]{figures/research/stem1.png}}
-\subfigure[]{\includegraphics[width=0.4\textwidth]{figures/research/stem2.png}}
-\caption{(a) Neural stem cells differentiating to astrocytes (red) and oligodendrocytes (green). Contours show segmented astrocytes and nuclei, using CellProfiler. Experiment by Tanja Paavilainen. (b) Cells from a glioma cell line expressing (blue marker) or not (orange marker) Oligodendrocyte transcription factor (OLIG2). Classifiaction obtained with CellProfiler Analyst. Experiment by Tobias Bergstr\"{o}m.}
-\label{fig::stem_cells}
-\end{figure*}
+
+
+
 
 % GGG
+\newpage
 
 \item
 \label{proj:stemcells}
 \textbf{SciLifeLab Cancer Stem Cell Program}\\
-Carolina W\"{a}hlby, Ida-Maria Sintorn\\
+Damian Matuszewski,Carolina W\"{a}hlby, Ida-Maria Sintorn\\
 \ppartners{Sven Nelander, Karin Forsberg-Nilsson, Irina Alafuzoff, Ulf Landegren, Anna Segerman, Tobias Sj\"{o}blom, Lene Urborn and Bengt Westermark, Department of Immunology, Genetics and Pathology and SciLifeLab, UU, Bo Lundgres, the Karolinska Institute and SciLifeLab, Stockholm, Rebecka J\"{o}rnsten, Chalmers, Gothenburg, and G\"{o}ran Hesselager, UU Hospital, Uppsala}
 \ffunding{AstraZeneca-Science for Life Laboratory Joint Research Program}
 \pperiod{1303--}
-\aabstract{The SciLifeLab Cancer Stem Cell Program is a cross-platform initiative to characterize cancer stem cells (CSCs). Previously, the development of drugs targeting the CSC population in solid tumors has been curbed by the lack of valid cell model systems, and the complex genetic heterogeneity across tumors, factors that make it hard to assess new targets or predict drug responses in the individual patient. To solve these problems, our aim is to develop a biobank of highly characterized CSC cultures as a valid model of cancer heterogeneity. We will combine mathematical and experimental approaches, including image-based high-throughput cell screening, to define the spectrum of therapeutically relevant regulatory differences between patients. This will help elucidate mechanisms of action and enable accurate targeting of disease subgroups. During 2013, patient data was collected, and a number of primary cell lines were established. Cultured cells were exposed to a different treatments and doses (more than 2500 different treatments per cell line), and imaged by fluorescence as well as bright-field microscopy, and current focus is on extracting meaningful morphological descriptors from the image data.}
+\aabstract{The SciLifeLab Cancer Stem Cell Program is a cross-platform initiative to characterize cancer stem cells (CSCs). Previously, the development of drugs targeting the CSC population in solid tumors has been curbed by the lack of valid cell model systems, and the complex genetic heterogeneity across tumors, factors that make it hard to assess new targets or predict drug responses in the individual patient. To solve these problems, our aim is to develop a biobank of highly characterized CSC cultures as a valid model of cancer heterogeneity. We will combine mathematical and experimental approaches, including image-based high-throughput cell screening, to define the spectrum of therapeutically relevant regulatory differences between patients. This will help elucidate mechanisms of action and enable accurate targeting of disease subgroups. During 2013-2014, patient data was collected, and a number of primary cell lines were established. Cultured cells were exposed to a different treatments and doses (more than 2500 different treatments per cell line), and imaged by fluorescence as well as bright-field microscopy, and current focus is on extracting meaningful morphological descriptors from the image data. 
+Developed tools are also applied in a cell cycle analysis project realized together with Jordi Carreras Puigvert, the Karolinska Institute and SciLifeLab, Stockholm.}
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/research/stemcell.png}
+	\caption{(A) Sample cancer stem cells image. Figures (B) and (C) present histograms of one of the automatically extracted features – DNA content per cell. (B) The different phases of the cell cycle can be identified based on the DNA content in negative control cells, by assuming that cells spend the majority of their time with either two (2N phase) or four (4N phase) copies of the DNA. Cells from different cell lines respond in a slightly different way to the same drug treatments, and (C) shows DNA histograms for treatments that arrest part of the cell population in the 4N phase.} 
+	\label{fig:stemcell}
+\end{figure}
+
+
 
 %HHH
 
@@ -290,106 +311,65 @@ Bettina Selig, Cris Luengo\\
 of Technology, Netherlands; Koen Vermeer, The Rotterdam Eye Hospital, The Netherlands}
 \ffunding{S-faculty, SLU}
 \pperiod{1103--}
-\aabstract{The corneal endothelium plays a key role in maintaining the
-transparency of the cornea. Because the cells in the endothelium do not
-regenerate, the cell density decreases with age; this reduces its ability
-to maintain the processes needed to keep the cornea transparent. Thus, being
-able to measure this density in patients is very important. The endothelium
-can be imaged by specular microscopy or by confocal scanners, and measurements
-can be obtained manually, automatically with manual corrections, or fully
-automatically with current software (e.g., Nidek's NAVIS). Unfortunately, the
-results of the automatic methods are often useless, especially at low cell
-densities. Together with the Rotterdam Eye Hospital, we have developed a fully
-automatic method to segment individual cells in the corneal endothelium. The
-result of the method (see Figure~\ref{fig:cornea}) can be used to determine
-the cell density, but also other parameters of interest, like pleomorphism
-(cell shape) and polymegathism (cell size variation). Our segmentation method produces a segmentation that matches a manual segmentation reasonably well, for a wide range of cell densities and image qualities. These results will be
-published during 2014.}
+\aabstract{The corneal endothelium plays a key role in maintaining the transparency of the cornea.Because the cells in the endothelium do not regenerate, the cell density decreases with age; this reduces its ability to maintain the processes needed to keep the cornea transparent. Thus, being able to measure this density in patients is very important. The endothelium can be imaged by specular microscopy or by confocal scanners, and measurements can be obtained manually, automatically with manual corrections, or fully automatically with current software (e.g., Nidek's NAVIS). Unfortunately, the results of the automatic methods are often useless, especially at low cell densities. Together with the Rotterdam Eye Hospital, we have developed a fully automatic method to segment individual cells in the corneal endothelium. The result of the method can be used to determine the cell density, but also other parameters of interest, like pleomorphism (cell shape) and polymegathism (cell size variation). Our segmentation method produces a segmentation that matches a manual segmentation reasonably well, for a wide range of cell densities and image qualities. These results have been submitted for publication during 2014.}
 
-\begin{figure}[!htbp]
-\centering
-\includegraphics[width=.85\textwidth]{figures/research/corneal_epithelium.png}
-\caption{\label{fig:cornea}
-Slit-scanning confocal microscope image of the endothelium of a patient's cornea, with a manual marking used to determine cell density (red), and the result of our automated algorithm (green). The manual markings take about four minutes per image to do, whereas the algorithm finishes in less than half a minute and requires no interaction at all. The white bar indicates 100$\;\mu$m. The image is a typical example (i.e. the one with the nicest segmentation result).}
-\end{figure}
+
 
 %%% III
 
 \item \textbf{CerviScan}\\
-Ewert Bengtsson, Patrik Malm, Hyun-Ju Choi, Bo Nordin, Andrew Mehnert\\
-\ppartners{Rajesh Kumar, Centre for Development of Advanced Computing (CDAC), Thiruvananthapuram, Kerala, India; K. Sujathan, Regional Cancer Centre, Thiruvananthapuram, Kerala, India}
+Ewert Bengtsson, Patrik Malm, Bo Nordin\\
+\ppartners{Rajesh Kumar, Centre for Development of Advanced Computing (CDAC), Thiruvananthapuram, Kerala, India; K. Sujathan, Regional Cancer Centre, Thiruvananthapuram, Kerala, India; Andrew Mehnert, Chalmers}
 \ffunding{Swedish Governmental Agency for Innovation Systems (VINNOVA); Swedish Research Council; SIDA}
 \pperiod{0801--}
-\aabstract{Cervical cancer is a disease that annually kills over a quarter of a million women world-wide. This number could be substantially reduced if women were regularly screened for signs of cancer precursors using the well established Pap-test. If detected early, these precursors can be treated with a very high rate of success. A problem with the Pap-test is that it requires highly trained cytotechnologists to perform thetime consuming visual analysis of the specimen. For over 50 years attempts to automate this process have been made but still no cost effective systems are available.
+\aabstract{Cervical cancer is a disease that annually kills over a quarter of a million women world-wide. This number could be substantially reduced if women were regularly screened for signs of cancer precursors using the well-established Pap-test. If detected early, these precursors can be treated with a very high rate of success. A problem with the Pap-test is that it requires highly trained cytotechnologists to perform the time consuming visual analysis of the specimen. For over 50 years attempts to automate this process have been made but still no cost effective systems are available.
+	
+The CerviScan project is an initiative from the Indian government, managed by the research institute CDAC in cooperation with the Regional Cancer Centre (RCC) in Kerala and CBA in Sweden, aimed at creating a low cost, automated screening system. The system will reduce the number of cytotechnologists needed for population screening by identifying and removing specimen that are clearly normal. A prototype system has been created and used to screen over 1000 specimen. Initial classification results are promising but screening times are still about 10 times longer than what is realistic in a real screening setting. Plans for the next phase of the project, focusing on dedicated hardware, are awaiting the result of a funding application in India.
+ 
+A subproject on developing improved ways of describing the nuclear chromatin patterns based on new image analysis methods has been spun off and is describe as project XX ({\color{red}Advanced methods for reliable and cost efficient image processing in life sciences})
 
-The CerviScan project is an initiative from the Indian government, managed by the research institute CDAC in cooperation with the Regional Cancer Centre (RCC) in Kerala and CBA in Sweden, aimed at creating a low cost, automated screening system. The system will reduce the number of cytotechnologists needed for population screening by identifying and removing specimen that are clearly normal. A prototype system has been created and used to screen over 1000 specimen (Fig. \ref{fig:cerviscan}). Initial classification results are promising but screening times are still about 10 times longer than what is realistic in a real screening setting. Plans for the next phase of the project, focusing on dedicated hardware, are under way and are currently awaiting the result of a funding application.
-\clearpage
-In Sweden, Ewert Bengtsson and Patrik Malm at CBA have in collaboration with Andrew Mehnert and students at MedTech West, Chalmers, been working on developing improved texture measures that are based on pseudo-3D information generated by imaging cells as focus stacks. This work is ongoing but has already led to two conference publications with a third manuscript on the way. Other work at CBA includes methods for nucleus segmentation, debris removal and field of view grading. Also, advanced procedural methods for synthetic Pap-smear image generation have been developed and published. Currently, a study aimed at determining the optimal optical resolution for a future system is taking place. Preliminary results of this study have been composed into a manuscript and submitted for conference publication.
+The project has resulted in several recent publications and a PhD thesis: "Image Analysis in Support of Computer-Assisted Cervical Cancer Screening" which was defended February 7, 2014 by Patrik Malm.
+}
 
-The work has been summarized in a thesis dubbed "Image Analysis in Support of Computer-Assisted Cervical Cancer Screening" . The thesis was defended February 7, 2014 by Patrik Malm.}
 
-\begin{figure}[!htbp]
-\centering
-\includegraphics[width=0.70\textwidth]{figures/research/cerviscan.png}
-\caption{\label{fig:cerviscan} The system developed in the CerviScan project will screen an entire specimen and within each field of view segment cervical cell nuclei that are visible. A series of structural and statistical measurements will then be acquired from these in order to determine if the specimen is normal or abnormal.}
-\end{figure}
-
-\newpage
+%\newpage
 
 %JJJ
 
 \item \textbf{Automated Tissue Image Analysis using Pattern Recognition}\\
-Ewert Bengtsson, Anders Hast, Jimmy Azar\\
+Jimmy Azar, Anders Hast, Ewert Bengtsson  \\
 \ffunding{TN-faculty, UU}
-\pperiod{1001--}
-\aabstract{The research was initially part of a VR supported project for grading
-of prostate cancer; the final part of the research will focus on
-analysis of samples from the Human Protein Atlas project aiming at
-developing methods that can be used for computer assisted image
-analysis of the huge database of images generated in that project.
-In particular, image analysis methods will be developed for
-histopathology, initially with applications to grading of prostate
-cancer, but with extension to structural analysis of breast tissue
-samples. The methods will be verified using paired antibody
-evaluations.}
+\pperiod{1001--1410}
+\aabstract{The research was initially part of a VR supported project for grading of prostate cancer. The final part of the research which took place during 2013-2014 extended this to more general ways of describing the architecture of histological tissues.
+	 
+Immunohistochemistry can facilitate the quantification of biomarkers such as estrogen, progesterone, and the human epidermal growth factor 2 receptors, in addition to Ki-67 proteins that are associated with cell growth and proliferation. We developed a method for the identification of paired antibodies based on correlating probability maps of immunostaining patterns across adjacent tissue sections. Samples from the Human Protein Atlas project were used to test the method.
 
-%KKK
+We also developed a new feature descriptor for characterizing glandular structure and tissue architecture, which form an important component of Gleason and tubule-based Elston grading. The method is based on defining shape-preserving, neighborhood annuli around lumen regions. 
 
-\item \textbf{Detection and Classification of Malaria Infected Cells by LED Spectral Microscopy}\\
-Carolina W\"{a}hlby\\
-\ppartners{Jeremie Zoueu, Olivier Bagui, Dept.~Genie Electrique et Electronique, Institut National Polytechnique, Felix Houbhouet-Boigny, Cote d' Ivoire}
-\pperiod{1109--}
-\aabstract{This project aims to propose an effective optical device based on LED spectral microscopy, which will be low cost, fast and easy to use in the diagnosis of human malaria parasites, especially because the sample will not need any special preparation or staining and the data will be automatically processed to provide real-time diagnosis of the type of the parasite, the parasitic density and its age for an effective prescription. The collaborative project was initiated by a 3-month visit by Olivier Bagui, where we focused on the development of efficient segmentation methods for unstained images of blood cells. An efficient segmentation approach was developed using CellProfiler. Segmentation masks could thereafter be used to extract per-cell measurements for further exploration of spectral information on single cells.}
+These two studies were accepted as journal papers. They also became part of the PhD thesis by Jimmy Azar, with the same title as the project, defended on October 10 2014.}
 
-%%% LLL
 
-\item 
-\textbf{Studying Exocytosis by Time Lapse Microscopy}\\
-Martin Simonsson, Carolina W\"{a}hlby\\
-\ppartners{Anne Wuttke, Dept.~of Medical Cell Biology, UU}
-\ffunding{SciLifeLab Uppsala, eSSENCE, VR junior research grant to CW }
-\pperiod{1211-}
-\aabstract{Insulin secreting cells perform exocytosis and this can be detected with a GFP-modified protein as an increase in fluorescence signal. Time-lapse sequences are acquired with a time interval of one second during one hour, observing changes in fluorescence signaling at different treatments of the cells. This results in huge data sets with more than 3000 images for a single experiment. The focus of this project is to extract relevant information from the image data and in an efficient way analyze and visualize the data. Preliminary results were presented in a PhD thesis by our collaborator Anne Wuttke, and a manuscript is in preparation.}
 
-%MMM
 
-\item 
-\textbf{Tracking of Unstained Cells in Microfluidic Systems}\\
-Sajith Kecheril Sadanandan, Martin Simonsson, Carolina W\"{a}hlby\\
-\ppartners{Johen Kreuger, Sara Thorslund, Gradientech AB, Uppsala }
-\ffunding{SciLifeLab Uppsala; eSSENCE; Dept.~of IT, UU}
-\pperiod{1108--}
-\aabstract{Tracking of cell movements in various cell culture setups is essential to many researchers in the life science sector. Gradientech AB, a Swedish biotech company, has developed CellDirector, a unique microfluidic system that academic researchers can use to study how concentration gradients of soluble proteins impact cell migration. The current project is focused on developing software for analyzing cell behavior and cell migration. The free open-source software CellProfiler developed at the Broad Institute will be used as a platform for a high-throughput system with automated high quality imaging, adapted for unlabeled cells, which are analyzed with regard to directionality of migration, speed, and acceleration. Apart from analyzing cell migration, the cell tracking aims at producing lineages, where cellular events such as cell division and cell death can be scored for single cells. A graphical user interface for visualizing and editing tracks imported from CellProfiler has been developed. This will be used for manual feed back in an iterative parameter optimization process, which aims to improve the automatic tracking. The progress of the project was presented in the poster session at eSSENCE Academy 2013 workshop at Lund.}
 
 % NNN
 
 \item 
 \textbf{Segmentation and Tracking of E.coli Bacteria in Bright-Field Microscopy Images}\\
 Sajith Kecheril Sadanandan, Carolina W\"{a}hlby\\
-\ppartners{Johan Elf and David Fange, Dept.~of Cell \& Molecular Biology, UU}
+\ppartners{Johan Elf and David Fange and Alexis Boucharin, Dept.~of Cell \& Molecular Biology, UU}
 \ffunding{SciLifeLab Uppsala, eSSENCE, VR junior researcher grant to CW}
 \pperiod{1210--}
-\aabstract{Time-lapse microscopy is used to study the cellular and molecular processes in live cell experiments. Tracking of live cells and analysis of their spatiotemporal behavior is a common task in many experiments. This project aims to segment E.coli bacteria and to track them over time to construct the cell lineage. Bacteria are grown in a microfluidic device developed at Elf lab, Uppsala, which enables the imaging of monolayer cells.  The unstained bright-field images of the cells are taken and a-priori information about the bacterial cells will be used to develop a system, which will have a GUI to set the parameters for proper segmentation and tracking. The results will be visually analyzed and the parameters are tuned. The optimized parameters will be used for the experiment to automatically analyze the data generated during the entire experiment.}
+\aabstract{Live cell experiments pave way to understand the complex biological functions of living organisms. Most live cell experiments require monitoring of cells under different conditions over several generations. The biological experiments display wide variations even when performed under similar conditions, and therefore need to include large population studied over several generations to provide statistically verifiable conclusions. Time-lapse images of such experiments usually generate large quantities of data, which become extremely difficult for human observers to evaluate. Thus, automated systems are helpful to analysis of such data and provide valuable inference from the experiment. In this work we segment and track E. coli bacteria cells over time. We developed a novel segmentation method, which is fast and robust in delineating bacterial cells in phase contrast microscopy images. The preliminary results (Figure \ref{fig:ecoliseg}) were presented as poster at the international Bioimage Informatics 2014 conference in Leuven, Belgium.}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/research/ecoliseg.png}
+	\caption{a) Input phase contrast image of E. coli bacteria, b) contrast enhanced image, c) segmentation result overlaid on the input image.} 
+	\label{fig:ecoliseg}
+\end{figure}
+
+
 
 %OOO
 
@@ -400,12 +380,9 @@ Ida-Maria Sintorn, Robin Strand \\
 \ppartners{Ingela Parmryd, Dept.~of Medical Cell Biology, UU; Jeremy Adler, Dept.~Of Immunology, Genetics and Pathology, UU}
 \ffunding{TN-faculty, UU; S-faculty, SLU; VINNMER programme, Swedish Governmental Agency for Innovation Systems}
 \pperiod{1101--}
-\aabstract{A cell surface is a highly irregular and rough. The surface
-topography is however usually ignored in current models of the
-plasma membrane, which are based on 2D observations of diffusion
-that really occurs in 3D. In this project we model diffusion on
-non-flat surfaces to explain biological processes occurring on the
-cellsurface. During 2013, a poster was presented at Biophysical Society 2013 Annual Meeting, Philadelphia.}
+\aabstract{A cell surface is a highly irregular and rough. The surface topography is however usually ignored in current models of the
+	plasma membrane, which are based on 2D observations of diffusion that really occurs in 3D. In this project we model diffusion on
+	non-flat surfaces to explain biological processes occurring on the cellsurface. }
 
 %PPP
 
