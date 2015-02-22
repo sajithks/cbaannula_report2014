@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.8)  22 FEB 2015 22:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.8)  22 FEB 2015 22:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,10 +643,7 @@ Type  H <return>  for immediate help.
                                                   
 l.228 ...analysis of cell and tissue morphology'.}
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 <figures/research/insitumrna.png, id=400, 455.301pt x 162.3666pt>
 File: figures/research/insitumrna.png Graphic file (type png)
 
@@ -701,9 +698,7 @@ Type  H <return>  for immediate help.
                                                   
 l.300 ... of the cell population in the 4N phase.}
                                                   
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
+? 
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -714,9 +709,7 @@ Type  H <return>  for immediate help.
                                                   
 l.300 ... of the cell population in the 4N phase.}
                                                   
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
+? 
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -727,9 +720,7 @@ Type  H <return>  for immediate help.
                                                   
 l.300 ... of the cell population in the 4N phase.}
                                                   
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
+? 
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -740,9 +731,7 @@ Type  H <return>  for immediate help.
                                                   
 l.300 ... of the cell population in the 4N phase.}
                                                   
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
+? 
 
 Overfull \hbox (27.29567pt too wide) in paragraph at lines 308--315
 \OT1/ptm/m/it/10.95 Abstract: \OT1/ptm/m/n/10.95 The corneal en-dothe-lium play
@@ -755,45 +744,25 @@ s a key role in main-tain-ing the trans-parency of the cornea.Because
                     
 l.332 }
        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \reserved@a ->\@nil 
                     
 l.332 }
        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \reserved@a ->\@nil 
                     
 l.332 }
        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \reserved@a ->\@nil 
                     
 l.332 }
        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
  <./figures/research/stemcell.png>] [34]
 <figures/research/ecoliseg.png, id=485, 384.4764pt x 151.2852pt>
 File: figures/research/ecoliseg.png Graphic file (type png)
@@ -1755,7 +1724,7 @@ e/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/tex
 mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on AnnualReport2014.pdf (108 pages, 34343998 bytes).
+Output written on AnnualReport2014.pdf (108 pages, 34359786 bytes).
 PDF statistics:
  1386 PDF objects out of 1440 (max. 8388607)
  1146 compressed objects within 12 object streams
