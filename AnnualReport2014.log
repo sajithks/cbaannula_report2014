@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.8)  22 FEB 2015 22:11
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.8)  19 FEB 2015 19:44
->>>>>>> parent of b56bdb8... edited first pass
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.8)  22 FEB 2015 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -806,7 +802,7 @@ File: figures/research/ecoliseg.png Graphic file (type png)
 Package pdftex.def Info: figures/research/ecoliseg.png used on input line 367.
 (pdftex.def)             Requested size: 386.96024pt x 152.26358pt.
 
-Overfull \hbox (4.83794pt too wide) in paragraph at lines 378--389
+Overfull \hbox (4.83794pt too wide) in paragraph at lines 378--386
 \OT1/ptm/m/it/10.95 Funding: \OT1/ptm/m/n/10.95 TN-faculty, UU; S-faculty, SLU;
  VIN-N-MER pro-gramme, Swedish Gov-ern-men-tal Agency
  []
@@ -816,14 +812,14 @@ Overfull \hbox (4.83794pt too wide) in paragraph at lines 378--389
 File: figures/research/M1001cut.png Graphic file (type png)
 
 <use figures/research/M1001cut.png>
-Package pdftex.def Info: figures/research/M1001cut.png used on input line 403.
+Package pdftex.def Info: figures/research/M1001cut.png used on input line 400.
 (pdftex.def)             Requested size: 364.19664pt x 273.14235pt.
  [36 <./figures/research/M1001cut.png>]
 <figures/research/prostate2.png, id=505, 247.689pt x 164.907pt>
 File: figures/research/prostate2.png Graphic file (type png)
 
 <use figures/research/prostate2.png>
-Package pdftex.def Info: figures/research/prostate2.png used on input line 453.
+Package pdftex.def Info: figures/research/prostate2.png used on input line 450.
 
 (pdftex.def)             Requested size: 432.48048pt x 287.93732pt.
  [37] [38 <./figures/research/prostate2.png>] <figures/research/prostate3.jpg, 
@@ -831,7 +827,7 @@ id=520, 142.8975pt x 150.453pt>
 File: figures/research/prostate3.jpg Graphic file (type jpg)
 
 <use figures/research/prostate3.jpg>
-Package pdftex.def Info: figures/research/prostate3.jpg used on input line 457.
+Package pdftex.def Info: figures/research/prostate3.jpg used on input line 454.
 
 (pdftex.def)             Requested size: 227.62204pt x 239.6668pt.
 
@@ -839,7 +835,7 @@ Package pdftex.def Info: figures/research/prostate3.jpg used on input line 457.
 File: figures/research/prostate4.jpg Graphic file (type jpg)
 
 <use figures/research/prostate4.jpg>
-Package pdftex.def Info: figures/research/prostate4.jpg used on input line 463.
+Package pdftex.def Info: figures/research/prostate4.jpg used on input line 460.
 
 (pdftex.def)             Requested size: 409.71689pt x 201.6641pt.
  [39 <./figures/research/prostate3.jpg>]
@@ -847,7 +843,7 @@ Package pdftex.def Info: figures/research/prostate4.jpg used on input line 463.
 File: figures/research/curvature1.png Graphic file (type png)
 
 <use figures/research/curvature1.png>
-Package pdftex.def Info: figures/research/curvature1.png used on input line 480
+Package pdftex.def Info: figures/research/curvature1.png used on input line 477
 .
 (pdftex.def)             Requested size: 136.5746pt x 109.25948pt.
 
@@ -855,7 +851,7 @@ Package pdftex.def Info: figures/research/curvature1.png used on input line 480
 File: figures/research/curvature2.png Graphic file (type png)
 
 <use figures/research/curvature2.png>
-Package pdftex.def Info: figures/research/curvature2.png used on input line 481
+Package pdftex.def Info: figures/research/curvature2.png used on input line 478
 .
 (pdftex.def)             Requested size: 136.5746pt x 109.2108pt.
 
@@ -863,7 +859,7 @@ Package pdftex.def Info: figures/research/curvature2.png used on input line 481
 File: figures/research/curvature3.png Graphic file (type png)
 
 <use figures/research/curvature3.png>
-Package pdftex.def Info: figures/research/curvature3.png used on input line 482
+Package pdftex.def Info: figures/research/curvature3.png used on input line 479
 .
 (pdftex.def)             Requested size: 136.5746pt x 109.25752pt.
 
@@ -871,7 +867,7 @@ Package pdftex.def Info: figures/research/curvature3.png used on input line 482
 File: figures/research/curvature4.png Graphic file (type png)
 
 <use figures/research/curvature4.png>
-Package pdftex.def Info: figures/research/curvature4.png used on input line 484
+Package pdftex.def Info: figures/research/curvature4.png used on input line 481
 .
 (pdftex.def)             Requested size: 136.5746pt x 109.25752pt.
 
@@ -879,7 +875,7 @@ Package pdftex.def Info: figures/research/curvature4.png used on input line 484
 File: figures/research/curvature5.png Graphic file (type png)
 
 <use figures/research/curvature5.png>
-Package pdftex.def Info: figures/research/curvature5.png used on input line 485
+Package pdftex.def Info: figures/research/curvature5.png used on input line 482
 .
 (pdftex.def)             Requested size: 136.5746pt x 109.25752pt.
 
@@ -887,7 +883,7 @@ Package pdftex.def Info: figures/research/curvature5.png used on input line 485
 File: figures/research/curvature6.png Graphic file (type png)
 
 <use figures/research/curvature6.png>
-Package pdftex.def Info: figures/research/curvature6.png used on input line 486
+Package pdftex.def Info: figures/research/curvature6.png used on input line 483
 .
 (pdftex.def)             Requested size: 136.5746pt x 109.30002pt.
  [40 <./figures/research/prostate4.jpg>]
@@ -895,14 +891,14 @@ Package pdftex.def Info: figures/research/curvature6.png used on input line 486
 File: figures/research/lipid1.png Graphic file (type png)
 
 <use figures/research/lipid1.png>
-Package pdftex.def Info: figures/research/lipid1.png used on input line 503.
+Package pdftex.def Info: figures/research/lipid1.png used on input line 500.
 (pdftex.def)             Requested size: 125.18706pt x 125.18613pt.
 
 <figures/research/lipid2.png, id=544, 513.92pt x 515.9275pt>
 File: figures/research/lipid2.png Graphic file (type png)
 
 <use figures/research/lipid2.png>
-Package pdftex.def Info: figures/research/lipid2.png used on input line 504.
+Package pdftex.def Info: figures/research/lipid2.png used on input line 501.
 (pdftex.def)             Requested size: 125.18613pt x 125.18706pt.
  [41 <./figures/research/curvature1.png> <./figures/research/curvature2.png> <.
 /figures/research/curvature3.png> <./figures/research/curvature4.png> <./figure
@@ -912,42 +908,42 @@ rch/lipid1.png> <./figures/research/lipid2.png>] <figures/research/zf1.png, id=
 File: figures/research/zf1.png Graphic file (type png)
 
 <use figures/research/zf1.png>
-Package pdftex.def Info: figures/research/zf1.png used on input line 521.
+Package pdftex.def Info: figures/research/zf1.png used on input line 518.
 (pdftex.def)             Requested size: 73.98177pt x 156.4923pt.
 
 <figures/research/zf2.png, id=564, 248.42813pt x 578.16pt>
 File: figures/research/zf2.png Graphic file (type png)
 
 <use figures/research/zf2.png>
-Package pdftex.def Info: figures/research/zf2.png used on input line 522.
+Package pdftex.def Info: figures/research/zf2.png used on input line 519.
 (pdftex.def)             Requested size: 73.97557pt x 156.48462pt.
 
 <figures/research/zf3.png, id=565, 291.33844pt x 568.37344pt>
 File: figures/research/zf3.png Graphic file (type png)
 
 <use figures/research/zf3.png>
-Package pdftex.def Info: figures/research/zf3.png used on input line 523.
+Package pdftex.def Info: figures/research/zf3.png used on input line 520.
 (pdftex.def)             Requested size: 73.97691pt x 156.48964pt.
 
 <figures/research/zf4.png, id=566, 258.36525pt x 523.9575pt>
 File: figures/research/zf4.png Graphic file (type png)
 
 <use figures/research/zf4.png>
-Package pdftex.def Info: figures/research/zf4.png used on input line 524.
+Package pdftex.def Info: figures/research/zf4.png used on input line 521.
 (pdftex.def)             Requested size: 73.97783pt x 156.48491pt.
 
 <figures/research/cell1.png, id=567, 130.68825pt x 134.30174pt>
 File: figures/research/cell1.png Graphic file (type png)
 
 <use figures/research/cell1.png>
-Package pdftex.def Info: figures/research/cell1.png used on input line 531.
+Package pdftex.def Info: figures/research/cell1.png used on input line 528.
 (pdftex.def)             Requested size: 113.80951pt x 113.81477pt.
 
 <figures/research/cell2.png, id=568, 133.6995pt x 133.09724pt>
 File: figures/research/cell2.png Graphic file (type png)
 
 <use figures/research/cell2.png>
-Package pdftex.def Info: figures/research/cell2.png used on input line 532.
+Package pdftex.def Info: figures/research/cell2.png used on input line 529.
 (pdftex.def)             Requested size: 113.81238pt x 113.81352pt.
  [42 <./figures/research/zf1.png> <./figures/research/zf2.png> <./figures/resea
 rch/zf3.png> <./figures/research/zf4.png>]
@@ -956,7 +952,7 @@ rch/zf3.png> <./figures/research/zf4.png>]
 File: figures/research/gigapixel.png Graphic file (type png)
 
 <use figures/research/gigapixel.png>
-Package pdftex.def Info: figures/research/gigapixel.png used on input line 559.
+Package pdftex.def Info: figures/research/gigapixel.png used on input line 556.
 
 (pdftex.def)             Requested size: 364.19664pt x 348.73807pt.
  [44 <./figures/research/gigapixel.png>]
@@ -964,42 +960,42 @@ Package pdftex.def Info: figures/research/gigapixel.png used on input line 559.
 File: figures/research/haptic1.png Graphic file (type png)
 
 <use figures/research/haptic1.png>
-Package pdftex.def Info: figures/research/haptic1.png used on input line 614.
+Package pdftex.def Info: figures/research/haptic1.png used on input line 611.
 (pdftex.def)             Requested size: 170.72247pt x 128.04198pt.
 
 <figures/research/haptic2.png, id=604, 213.1965pt x 156.366pt>
 File: figures/research/haptic2.png Graphic file (type png)
 
 <use figures/research/haptic2.png>
-Package pdftex.def Info: figures/research/haptic2.png used on input line 614.
+Package pdftex.def Info: figures/research/haptic2.png used on input line 611.
 (pdftex.def)             Requested size: 170.72008pt x 128.04198pt.
 
 <figures/research/haptic3.png, id=606, 241.27061pt x 344.6723pt>
 File: figures/research/haptic3.png Graphic file (type png)
 
 <use figures/research/haptic3.png>
-Package pdftex.def Info: figures/research/haptic3.png used on input line 614.
+Package pdftex.def Info: figures/research/haptic3.png used on input line 611.
 (pdftex.def)             Requested size: 82.51318pt x 142.26848pt.
 
 <figures/research/haptic4.png, id=607, 240.15877pt x 344.6723pt>
 File: figures/research/haptic4.png Graphic file (type png)
 
 <use figures/research/haptic4.png>
-Package pdftex.def Info: figures/research/haptic4.png used on input line 614.
+Package pdftex.def Info: figures/research/haptic4.png used on input line 611.
 (pdftex.def)             Requested size: 82.51039pt x 142.26848pt.
 
 <figures/research/haptic5.png, id=608, 241.27061pt x 344.6723pt>
 File: figures/research/haptic5.png Graphic file (type png)
 
 <use figures/research/haptic5.png>
-Package pdftex.def Info: figures/research/haptic5.png used on input line 614.
+Package pdftex.def Info: figures/research/haptic5.png used on input line 611.
 (pdftex.def)             Requested size: 82.51318pt x 142.26848pt.
 
 <figures/research/haptic6.png, id=609, 240.15877pt x 344.6723pt>
 File: figures/research/haptic6.png Graphic file (type png)
 
 <use figures/research/haptic6.png>
-Package pdftex.def Info: figures/research/haptic6.png used on input line 614.
+Package pdftex.def Info: figures/research/haptic6.png used on input line 611.
 (pdftex.def)             Requested size: 82.51039pt x 142.26848pt.
 
 
@@ -1012,7 +1008,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figures/research/haptic7.jpg Graphic file (type jpg)
 
 <use figures/research/haptic7.jpg>
-Package pdftex.def Info: figures/research/haptic7.jpg used on input line 614.
+Package pdftex.def Info: figures/research/haptic7.jpg used on input line 611.
 (pdftex.def)             Requested size: 355.65991pt x 91.05008pt.
  [46 <./figures/research/haptic3.png> <./figures/research/haptic4.png> <./figur
 es/research/haptic5.png> <./figures/research/haptic6.png> <./figures/research/h
@@ -1023,7 +1019,7 @@ File: figures/research/proviz_search_and_score_volumes.PNG Graphic file (type p
 ng)
  <use figures/research/proviz_search_and_score_volumes.PNG>
 Package pdftex.def Info: figures/research/proviz_search_and_score_volumes.PNG u
-sed on input line 634.
+sed on input line 631.
 (pdftex.def)             Requested size: 409.71689pt x 201.05807pt.
  [47 <./figures/research/proviz_search_and_score_volumes.PNG>]
 <figures/research/interactive_image_registration.png, id=646, 1100.11pt x 669.5
@@ -1032,7 +1028,7 @@ File: figures/research/interactive_image_registration.png Graphic file (type pn
 g)
  <use figures/research/interactive_image_registration.png>
 Package pdftex.def Info: figures/research/interactive_image_registration.png us
-ed on input line 667.
+ed on input line 664.
 (pdftex.def)             Requested size: 295.90587pt x 180.0833pt.
  [48 <./figures/research/interactive_image_registration.png>]
 <figures/research/SP_Screenshot.png, id=659, 1267.73625pt x 803.0pt>
@@ -1040,10 +1036,10 @@ File: figures/research/SP_Screenshot.png Graphic file (type png)
 
 <use figures/research/SP_Screenshot.png>
 Package pdftex.def Info: figures/research/SP_Screenshot.png used on input line 
-686.
+683.
 (pdftex.def)             Requested size: 273.14922pt x 173.00922pt.
 
-Overfull \hbox (1.95564pt too wide) in paragraph at lines 694--710
+Overfull \hbox (1.95564pt too wide) in paragraph at lines 691--707
 \OT1/ptm/m/it/10.95 Abstract: \OT1/ptm/m/n/10.95 A cen-tral prob-lem in cranio-
 maxillofacial (CMF) surgery is to re-store the nor-mal anatomy
  []
@@ -1053,21 +1049,21 @@ maxillofacial (CMF) surgery is to re-store the nor-mal anatomy
 File: figures/research/orbit_project_figure1.png Graphic file (type png)
 <use figures/research/orbit_project_figure1.png>
 Package pdftex.def Info: figures/research/orbit_project_figure1.png used on inp
-ut line 710.
+ut line 707.
 (pdftex.def)             Requested size: 213.39067pt x 256.07666pt.
  [50 <./figures/research/orbit_project_figure1.png>]
 <figures/research/orbit_project_figure2.png, id=678, 1129.21875pt x 752.8125pt>
 File: figures/research/orbit_project_figure2.png Graphic file (type png)
 <use figures/research/orbit_project_figure2.png>
 Package pdftex.def Info: figures/research/orbit_project_figure2.png used on inp
-ut line 714.
+ut line 711.
 (pdftex.def)             Requested size: 409.71689pt x 273.14886pt.
  [51 <./figures/research/orbit_project_figure2.png>]
 <figures/research/wrist_project_figure1a.png, id=687, 249.2069pt x 401.72151pt>
 File: figures/research/wrist_project_figure1a.png Graphic file (type png)
 <use figures/research/wrist_project_figure1a.png>
 Package pdftex.def Info: figures/research/wrist_project_figure1a.png used on in
-put line 735.
+put line 732.
 (pdftex.def)             Requested size: 182.09485pt x 293.53622pt.
 
 <figures/research/wrist_project_figure1b.png, id=688, 476.59135pt x 768.27568pt
@@ -1075,14 +1071,14 @@ put line 735.
 File: figures/research/wrist_project_figure1b.png Graphic file (type png)
  <use figures/research/wrist_project_figure1b.png>
 Package pdftex.def Info: figures/research/wrist_project_figure1b.png used on in
-put line 737.
+put line 734.
 (pdftex.def)             Requested size: 182.09485pt x 293.54211pt.
  [52 <./figures/research/wrist_project_figure1a.png> <./figures/research/wrist_
 project_figure1b.png>]
 [53] [54
 
 ]
-Overfull \hbox (3.06407pt too wide) in paragraph at lines 833--833
+Overfull \hbox (3.06407pt too wide) in paragraph at lines 830--830
 []\OT1/ptm/m/n/10.95 weight se-quence dis-tance func-tions, where weighted neig
 h-bor-hood se-quences of in-finte length
  []
@@ -1091,7 +1087,7 @@ h-bor-hood se-quences of in-finte length
 File: figures/research/cba_ar.png Graphic file (type png)
 
 <use figures/research/cba_ar.png>
-Package pdftex.def Info: figures/research/cba_ar.png used on input line 897.
+Package pdftex.def Info: figures/research/cba_ar.png used on input line 894.
 (pdftex.def)             Requested size: 273.14922pt x 212.35315pt.
  [57
 
@@ -1100,21 +1096,21 @@ Package pdftex.def Info: figures/research/cba_ar.png used on input line 897.
 File: figures/research/foce_all.png Graphic file (type png)
 
 <use figures/research/foce_all.png>
-Package pdftex.def Info: figures/research/foce_all.png used on input line 916.
+Package pdftex.def Info: figures/research/foce_all.png used on input line 913.
 (pdftex.def)             Requested size: 273.14922pt x 286.20679pt.
  [58 <./figures/research/foce_all.png>]
 <figures/research/bees1.png, id=742, 1622.06pt x 995.72pt>
 File: figures/research/bees1.png Graphic file (type png)
 
 <use figures/research/bees1.png>
-Package pdftex.def Info: figures/research/bees1.png used on input line 970.
+Package pdftex.def Info: figures/research/bees1.png used on input line 967.
 (pdftex.def)             Requested size: 386.96024pt x 237.5343pt.
  [59]
 <figures/research/fritjof.pdf, id=752, 318.18875pt x 198.7425pt>
 File: figures/research/fritjof.pdf Graphic file (type pdf)
 
 <use figures/research/fritjof.pdf>
-Package pdftex.def Info: figures/research/fritjof.pdf used on input line 986.
+Package pdftex.def Info: figures/research/fritjof.pdf used on input line 983.
 (pdftex.def)             Requested size: 273.14922pt x 170.60892pt.
  [60 <./figures/research/bees1.png (PNG copy)> <./figures/research/fritjof.pdf>
 ] [61]) (./AR2014_copartners.tex [62
@@ -1759,7 +1755,7 @@ e/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/tex
 mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on AnnualReport2014.pdf (108 pages, 34343532 bytes).
+Output written on AnnualReport2014.pdf (108 pages, 34343998 bytes).
 PDF statistics:
  1386 PDF objects out of 1440 (max. 8388607)
  1146 compressed objects within 12 object streams
