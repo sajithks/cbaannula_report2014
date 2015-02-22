@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.8)  22 FEB 2015 22:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.8)  22 FEB 2015 22:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,7 +643,10 @@ Type  H <return>  for immediate help.
                                                   
 l.228 ...analysis of cell and tissue morphology'.}
                                                   
-? 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 <figures/research/insitumrna.png, id=400, 455.301pt x 162.3666pt>
 File: figures/research/insitumrna.png Graphic file (type png)
 
@@ -698,7 +701,9 @@ Type  H <return>  for immediate help.
                                                   
 l.300 ... of the cell population in the 4N phase.}
                                                   
-? 
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -709,7 +714,9 @@ Type  H <return>  for immediate help.
                                                   
 l.300 ... of the cell population in the 4N phase.}
                                                   
-? 
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -720,7 +727,9 @@ Type  H <return>  for immediate help.
                                                   
 l.300 ... of the cell population in the 4N phase.}
                                                   
-? 
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -731,7 +740,9 @@ Type  H <return>  for immediate help.
                                                   
 l.300 ... of the cell population in the 4N phase.}
                                                   
-? 
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
 
 Overfull \hbox (27.29567pt too wide) in paragraph at lines 308--315
 \OT1/ptm/m/it/10.95 Abstract: \OT1/ptm/m/n/10.95 The corneal en-dothe-lium play
@@ -744,25 +755,45 @@ s a key role in main-tain-ing the trans-parency of the cornea.Because
                     
 l.332 }
        
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 \reserved@a ->\@nil 
                     
 l.332 }
        
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 \reserved@a ->\@nil 
                     
 l.332 }
        
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 \reserved@a ->\@nil 
                     
 l.332 }
        
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
  <./figures/research/stemcell.png>] [34]
 <figures/research/ecoliseg.png, id=485, 384.4764pt x 151.2852pt>
 File: figures/research/ecoliseg.png Graphic file (type png)
@@ -777,329 +808,376 @@ Overfull \hbox (4.83794pt too wide) in paragraph at lines 378--386
  []
 
 [35 <./figures/research/ecoliseg.png>]
-<figures/research/M1001cut.png, id=495, 578.16pt x 433.62pt>
-File: figures/research/M1001cut.png Graphic file (type png)
+<figures/research/5class.pdf, id=495, 1265.72874pt x 647.41875pt>
+File: figures/research/5class.pdf Graphic file (type pdf)
 
-<use figures/research/M1001cut.png>
-Package pdftex.def Info: figures/research/M1001cut.png used on input line 400.
-(pdftex.def)             Requested size: 364.19664pt x 273.14235pt.
- [36 <./figures/research/M1001cut.png>]
-<figures/research/prostate2.png, id=505, 247.689pt x 164.907pt>
-File: figures/research/prostate2.png Graphic file (type png)
+<use figures/research/5class.pdf>
+Package pdftex.def Info: figures/research/5class.pdf used on input line 401.
+(pdftex.def)             Requested size: 364.19664pt x 186.28456pt.
+ [36 <./figures/research/5class.pdf>]
 
-<use figures/research/prostate2.png>
-Package pdftex.def Info: figures/research/prostate2.png used on input line 450.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-(pdftex.def)             Requested size: 432.48048pt x 287.93732pt.
- [37] [38 <./figures/research/prostate2.png>] <figures/research/prostate3.jpg, 
-id=520, 142.8975pt x 150.453pt>
-File: figures/research/prostate3.jpg Graphic file (type jpg)
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.427 \pperiod{2014-01-01 –- 2014-12-31}
+                                          
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
-<use figures/research/prostate3.jpg>
-Package pdftex.def Info: figures/research/prostate3.jpg used on input line 454.
 
-(pdftex.def)             Requested size: 227.62204pt x 239.6668pt.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-<figures/research/prostate4.jpg, id=521, 707.64375pt x 348.30125pt>
-File: figures/research/prostate4.jpg Graphic file (type jpg)
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.427 \pperiod{2014-01-01 –- 2014-12-31}
+                                          
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
-<use figures/research/prostate4.jpg>
-Package pdftex.def Info: figures/research/prostate4.jpg used on input line 460.
+<figures/research/userinterfaceprostate.png, id=513, 181.1568pt x 114.1866pt>
+File: figures/research/userinterfaceprostate.png Graphic file (type png)
 
-(pdftex.def)             Requested size: 409.71689pt x 201.6641pt.
- [39 <./figures/research/prostate3.jpg>]
-<figures/research/curvature1.png, id=529, 642.4pt x 513.92pt>
-File: figures/research/curvature1.png Graphic file (type png)
+<use figures/research/userinterfaceprostate.png>
+Package pdftex.def Info: figures/research/userinterfaceprostate.png used on inp
+ut line 440.
+(pdftex.def)             Requested size: 273.14922pt x 172.1698pt.
 
-<use figures/research/curvature1.png>
-Package pdftex.def Info: figures/research/curvature1.png used on input line 477
-.
-(pdftex.def)             Requested size: 136.5746pt x 109.25948pt.
+<figures/research/segglandpros.png, id=514, 164.2938pt x 114.1866pt>
+File: figures/research/segglandpros.png Graphic file (type png)
 
-<figures/research/curvature2.png, id=530, 160.6365pt x 128.4435pt>
-File: figures/research/curvature2.png Graphic file (type png)
+<use figures/research/segglandpros.png>
+Package pdftex.def Info: figures/research/segglandpros.png used on input line 4
+47.
+(pdftex.def)             Requested size: 182.09485pt x 126.5674pt.
 
-<use figures/research/curvature2.png>
-Package pdftex.def Info: figures/research/curvature2.png used on input line 478
-.
-(pdftex.def)             Requested size: 136.5746pt x 109.2108pt.
+<figures/research/segnucleipros.png, id=515, 165.2574pt x 114.1866pt>
+File: figures/research/segnucleipros.png Graphic file (type png)
 
-<figures/research/curvature3.png, id=531, 481.8pt x 385.44pt>
-File: figures/research/curvature3.png Graphic file (type png)
+<use figures/research/segnucleipros.png>
+Package pdftex.def Info: figures/research/segnucleipros.png used on input line 
+448.
+(pdftex.def)             Requested size: 182.09485pt x 125.82516pt.
+ [37]
 
-<use figures/research/curvature3.png>
-Package pdftex.def Info: figures/research/curvature3.png used on input line 479
-.
-(pdftex.def)             Requested size: 136.5746pt x 109.25752pt.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-<figures/research/curvature4.png, id=532, 481.8pt x 385.44pt>
-File: figures/research/curvature4.png Graphic file (type png)
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 ...ium on Digital Pathology in Link\"oping.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
-<use figures/research/curvature4.png>
-Package pdftex.def Info: figures/research/curvature4.png used on input line 481
-.
-(pdftex.def)             Requested size: 136.5746pt x 109.25752pt.
 
-<figures/research/curvature5.png, id=533, 481.8pt x 385.44pt>
-File: figures/research/curvature5.png Graphic file (type png)
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-<use figures/research/curvature5.png>
-Package pdftex.def Info: figures/research/curvature5.png used on input line 482
-.
-(pdftex.def)             Requested size: 136.5746pt x 109.25752pt.
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 ...ium on Digital Pathology in Link\"oping.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
-<figures/research/curvature6.png, id=534, 643.40375pt x 514.92375pt>
-File: figures/research/curvature6.png Graphic file (type png)
 
-<use figures/research/curvature6.png>
-Package pdftex.def Info: figures/research/curvature6.png used on input line 483
-.
-(pdftex.def)             Requested size: 136.5746pt x 109.30002pt.
- [40 <./figures/research/prostate4.jpg>]
-<figures/research/lipid1.png, id=543, 515.9275pt x 513.92pt>
-File: figures/research/lipid1.png Graphic file (type png)
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-<use figures/research/lipid1.png>
-Package pdftex.def Info: figures/research/lipid1.png used on input line 500.
-(pdftex.def)             Requested size: 125.18706pt x 125.18613pt.
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 ...ium on Digital Pathology in Link\"oping.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
-<figures/research/lipid2.png, id=544, 513.92pt x 515.9275pt>
-File: figures/research/lipid2.png Graphic file (type png)
 
-<use figures/research/lipid2.png>
-Package pdftex.def Info: figures/research/lipid2.png used on input line 501.
-(pdftex.def)             Requested size: 125.18613pt x 125.18706pt.
- [41 <./figures/research/curvature1.png> <./figures/research/curvature2.png> <.
-/figures/research/curvature3.png> <./figures/research/curvature4.png> <./figure
-s/research/curvature5.png> <./figures/research/curvature6.png> <./figures/resea
-rch/lipid1.png> <./figures/research/lipid2.png>] <figures/research/zf1.png, id=
-563, 109.719pt x 264.771pt>
-File: figures/research/zf1.png Graphic file (type png)
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-<use figures/research/zf1.png>
-Package pdftex.def Info: figures/research/zf1.png used on input line 518.
-(pdftex.def)             Requested size: 73.98177pt x 156.4923pt.
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 ...ium on Digital Pathology in Link\"oping.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
-<figures/research/zf2.png, id=564, 248.42813pt x 578.16pt>
-File: figures/research/zf2.png Graphic file (type png)
 
-<use figures/research/zf2.png>
-Package pdftex.def Info: figures/research/zf2.png used on input line 519.
-(pdftex.def)             Requested size: 73.97557pt x 156.48462pt.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-<figures/research/zf3.png, id=565, 291.33844pt x 568.37344pt>
-File: figures/research/zf3.png Graphic file (type png)
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 ...ium on Digital Pathology in Link\"oping.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
-<use figures/research/zf3.png>
-Package pdftex.def Info: figures/research/zf3.png used on input line 520.
-(pdftex.def)             Requested size: 73.97691pt x 156.48964pt.
 
-<figures/research/zf4.png, id=566, 258.36525pt x 523.9575pt>
-File: figures/research/zf4.png Graphic file (type png)
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-<use figures/research/zf4.png>
-Package pdftex.def Info: figures/research/zf4.png used on input line 521.
-(pdftex.def)             Requested size: 73.97783pt x 156.48491pt.
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 ...ium on Digital Pathology in Link\"oping.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
-<figures/research/cell1.png, id=567, 130.68825pt x 134.30174pt>
-File: figures/research/cell1.png Graphic file (type png)
 
-<use figures/research/cell1.png>
-Package pdftex.def Info: figures/research/cell1.png used on input line 528.
-(pdftex.def)             Requested size: 113.80951pt x 113.81477pt.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-<figures/research/cell2.png, id=568, 133.6995pt x 133.09724pt>
-File: figures/research/cell2.png Graphic file (type png)
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 ...ium on Digital Pathology in Link\"oping.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
-<use figures/research/cell2.png>
-Package pdftex.def Info: figures/research/cell2.png used on input line 529.
-(pdftex.def)             Requested size: 113.81238pt x 113.81352pt.
- [42 <./figures/research/zf1.png> <./figures/research/zf2.png> <./figures/resea
-rch/zf3.png> <./figures/research/zf4.png>]
-[43 <./figures/research/cell1.png> <./figures/research/cell2.png>]
-<figures/research/gigapixel.png, id=594, 816.04875pt x 781.41937pt>
-File: figures/research/gigapixel.png Graphic file (type png)
 
-<use figures/research/gigapixel.png>
-Package pdftex.def Info: figures/research/gigapixel.png used on input line 556.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-(pdftex.def)             Requested size: 364.19664pt x 348.73807pt.
- [44 <./figures/research/gigapixel.png>]
-<figures/research/haptic1.png, id=603, 213.525pt x 156.366pt>
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 ...ium on Digital Pathology in Link\"oping.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 ...ium on Digital Pathology in Link\"oping.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 ...ium on Digital Pathology in Link\"oping.}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Overfull \hbox (1.88101pt too wide) in paragraph at lines 474--480
+\OT1/ptm/m/it/10.95 Partners: \OT1/ptm/m/n/10.95 Mats Nils-son, Thomas Haul-ing
+, Marco Mignardi, Jes-sica Sved-lund, Elin Lundin,Xiaoyan
+ []
+
+[38 <./figures/research/userinterfaceprostate.png> <./figures/research/seggland
+pros.png> <./figures/research/segnucleipros.png>] [39]
+<figures/research/haptic1.png, id=539, 213.525pt x 156.366pt>
 File: figures/research/haptic1.png Graphic file (type png)
 
 <use figures/research/haptic1.png>
-Package pdftex.def Info: figures/research/haptic1.png used on input line 611.
+Package pdftex.def Info: figures/research/haptic1.png used on input line 533.
 (pdftex.def)             Requested size: 170.72247pt x 128.04198pt.
 
-<figures/research/haptic2.png, id=604, 213.1965pt x 156.366pt>
+<figures/research/haptic2.png, id=540, 213.1965pt x 156.366pt>
 File: figures/research/haptic2.png Graphic file (type png)
 
 <use figures/research/haptic2.png>
-Package pdftex.def Info: figures/research/haptic2.png used on input line 611.
+Package pdftex.def Info: figures/research/haptic2.png used on input line 533.
 (pdftex.def)             Requested size: 170.72008pt x 128.04198pt.
 
-<figures/research/haptic3.png, id=606, 241.27061pt x 344.6723pt>
+<figures/research/haptic3.png, id=542, 241.27061pt x 344.6723pt>
 File: figures/research/haptic3.png Graphic file (type png)
 
 <use figures/research/haptic3.png>
-Package pdftex.def Info: figures/research/haptic3.png used on input line 611.
+Package pdftex.def Info: figures/research/haptic3.png used on input line 533.
 (pdftex.def)             Requested size: 82.51318pt x 142.26848pt.
 
-<figures/research/haptic4.png, id=607, 240.15877pt x 344.6723pt>
+<figures/research/haptic4.png, id=543, 240.15877pt x 344.6723pt>
 File: figures/research/haptic4.png Graphic file (type png)
 
 <use figures/research/haptic4.png>
-Package pdftex.def Info: figures/research/haptic4.png used on input line 611.
+Package pdftex.def Info: figures/research/haptic4.png used on input line 533.
 (pdftex.def)             Requested size: 82.51039pt x 142.26848pt.
 
-<figures/research/haptic5.png, id=608, 241.27061pt x 344.6723pt>
+<figures/research/haptic5.png, id=544, 241.27061pt x 344.6723pt>
 File: figures/research/haptic5.png Graphic file (type png)
 
 <use figures/research/haptic5.png>
-Package pdftex.def Info: figures/research/haptic5.png used on input line 611.
+Package pdftex.def Info: figures/research/haptic5.png used on input line 533.
 (pdftex.def)             Requested size: 82.51318pt x 142.26848pt.
 
-<figures/research/haptic6.png, id=609, 240.15877pt x 344.6723pt>
+<figures/research/haptic6.png, id=545, 240.15877pt x 344.6723pt>
 File: figures/research/haptic6.png Graphic file (type png)
 
 <use figures/research/haptic6.png>
-Package pdftex.def Info: figures/research/haptic6.png used on input line 611.
+Package pdftex.def Info: figures/research/haptic6.png used on input line 533.
 (pdftex.def)             Requested size: 82.51039pt x 142.26848pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[45
+[40
 
  <./figures/research/haptic1.png> <./figures/research/haptic2.png>]
-<figures/research/haptic7.jpg, id=621, 829.9005pt x 183.084pt>
+<figures/research/haptic7.jpg, id=557, 829.9005pt x 183.084pt>
 File: figures/research/haptic7.jpg Graphic file (type jpg)
 
 <use figures/research/haptic7.jpg>
-Package pdftex.def Info: figures/research/haptic7.jpg used on input line 611.
+Package pdftex.def Info: figures/research/haptic7.jpg used on input line 533.
 (pdftex.def)             Requested size: 355.65991pt x 91.05008pt.
- [46 <./figures/research/haptic3.png> <./figures/research/haptic4.png> <./figur
+ [41 <./figures/research/haptic3.png> <./figures/research/haptic4.png> <./figur
 es/research/haptic5.png> <./figures/research/haptic6.png> <./figures/research/h
 aptic7.jpg>]
-<figures/research/proviz_search_and_score_volumes.PNG, id=636, 649.2255pt x 318
+<figures/research/proviz_search_and_score_volumes.PNG, id=573, 649.2255pt x 318
 .59026pt>
 File: figures/research/proviz_search_and_score_volumes.PNG Graphic file (type p
 ng)
  <use figures/research/proviz_search_and_score_volumes.PNG>
 Package pdftex.def Info: figures/research/proviz_search_and_score_volumes.PNG u
-sed on input line 631.
+sed on input line 553.
 (pdftex.def)             Requested size: 409.71689pt x 201.05807pt.
- [47 <./figures/research/proviz_search_and_score_volumes.PNG>]
-<figures/research/interactive_image_registration.png, id=646, 1100.11pt x 669.5
+ [42 <./figures/research/proviz_search_and_score_volumes.PNG>]
+<figures/research/interactive_image_registration.png, id=584, 1100.11pt x 669.5
 0125pt>
 File: figures/research/interactive_image_registration.png Graphic file (type pn
 g)
  <use figures/research/interactive_image_registration.png>
 Package pdftex.def Info: figures/research/interactive_image_registration.png us
-ed on input line 664.
+ed on input line 586.
 (pdftex.def)             Requested size: 295.90587pt x 180.0833pt.
- [48 <./figures/research/interactive_image_registration.png>]
-<figures/research/SP_Screenshot.png, id=659, 1267.73625pt x 803.0pt>
+ [43 <./figures/research/interactive_image_registration.png>]
+<figures/research/SP_Screenshot.png, id=596, 1267.73625pt x 803.0pt>
 File: figures/research/SP_Screenshot.png Graphic file (type png)
 
 <use figures/research/SP_Screenshot.png>
 Package pdftex.def Info: figures/research/SP_Screenshot.png used on input line 
-683.
+605.
 (pdftex.def)             Requested size: 273.14922pt x 173.00922pt.
 
-Overfull \hbox (1.95564pt too wide) in paragraph at lines 691--707
+Overfull \hbox (1.95564pt too wide) in paragraph at lines 613--629
 \OT1/ptm/m/it/10.95 Abstract: \OT1/ptm/m/n/10.95 A cen-tral prob-lem in cranio-
 maxillofacial (CMF) surgery is to re-store the nor-mal anatomy
  []
 
-[49 <./figures/research/SP_Screenshot.png>]
-<figures/research/orbit_project_figure1.png, id=669, 711.65875pt x 914.41624pt>
+[44 <./figures/research/SP_Screenshot.png>]
+<figures/research/orbit_project_figure1.png, id=606, 711.65875pt x 914.41624pt>
 File: figures/research/orbit_project_figure1.png Graphic file (type png)
 <use figures/research/orbit_project_figure1.png>
 Package pdftex.def Info: figures/research/orbit_project_figure1.png used on inp
-ut line 707.
+ut line 629.
 (pdftex.def)             Requested size: 213.39067pt x 256.07666pt.
- [50 <./figures/research/orbit_project_figure1.png>]
-<figures/research/orbit_project_figure2.png, id=678, 1129.21875pt x 752.8125pt>
+ [45 <./figures/research/orbit_project_figure1.png>]
+<figures/research/orbit_project_figure2.png, id=615, 1129.21875pt x 752.8125pt>
 File: figures/research/orbit_project_figure2.png Graphic file (type png)
 <use figures/research/orbit_project_figure2.png>
 Package pdftex.def Info: figures/research/orbit_project_figure2.png used on inp
-ut line 711.
+ut line 633.
 (pdftex.def)             Requested size: 409.71689pt x 273.14886pt.
- [51 <./figures/research/orbit_project_figure2.png>]
-<figures/research/wrist_project_figure1a.png, id=687, 249.2069pt x 401.72151pt>
+ [46 <./figures/research/orbit_project_figure2.png>]
+<figures/research/wrist_project_figure1a.png, id=624, 249.2069pt x 401.72151pt>
 File: figures/research/wrist_project_figure1a.png Graphic file (type png)
 <use figures/research/wrist_project_figure1a.png>
 Package pdftex.def Info: figures/research/wrist_project_figure1a.png used on in
-put line 732.
+put line 654.
 (pdftex.def)             Requested size: 182.09485pt x 293.53622pt.
 
-<figures/research/wrist_project_figure1b.png, id=688, 476.59135pt x 768.27568pt
+<figures/research/wrist_project_figure1b.png, id=625, 476.59135pt x 768.27568pt
 >
 File: figures/research/wrist_project_figure1b.png Graphic file (type png)
  <use figures/research/wrist_project_figure1b.png>
 Package pdftex.def Info: figures/research/wrist_project_figure1b.png used on in
-put line 734.
+put line 656.
 (pdftex.def)             Requested size: 182.09485pt x 293.54211pt.
- [52 <./figures/research/wrist_project_figure1a.png> <./figures/research/wrist_
+ [47 <./figures/research/wrist_project_figure1a.png> <./figures/research/wrist_
 project_figure1b.png>]
-[53] [54
+[48] [49
 
 ]
-Overfull \hbox (3.06407pt too wide) in paragraph at lines 830--830
+Overfull \hbox (3.06407pt too wide) in paragraph at lines 752--752
 []\OT1/ptm/m/n/10.95 weight se-quence dis-tance func-tions, where weighted neig
 h-bor-hood se-quences of in-finte length
  []
 
-[55] [56] <figures/research/cba_ar.png, id=723, 282.93706pt x 219.9417pt>
+[50] [51] <figures/research/cba_ar.png, id=659, 282.93706pt x 219.9417pt>
 File: figures/research/cba_ar.png Graphic file (type png)
 
 <use figures/research/cba_ar.png>
-Package pdftex.def Info: figures/research/cba_ar.png used on input line 894.
+Package pdftex.def Info: figures/research/cba_ar.png used on input line 816.
 (pdftex.def)             Requested size: 273.14922pt x 212.35315pt.
- [57
+ [52
 
  <./figures/research/cba_ar.png>]
-<figures/research/foce_all.png, id=733, 264.99pt x 277.63725pt>
+<figures/research/foce_all.png, id=669, 264.99pt x 277.63725pt>
 File: figures/research/foce_all.png Graphic file (type png)
 
 <use figures/research/foce_all.png>
-Package pdftex.def Info: figures/research/foce_all.png used on input line 913.
+Package pdftex.def Info: figures/research/foce_all.png used on input line 835.
 (pdftex.def)             Requested size: 273.14922pt x 286.20679pt.
- [58 <./figures/research/foce_all.png>]
-<figures/research/bees1.png, id=742, 1622.06pt x 995.72pt>
+ [53 <./figures/research/foce_all.png>]
+<figures/research/bees1.png, id=678, 1622.06pt x 995.72pt>
 File: figures/research/bees1.png Graphic file (type png)
 
 <use figures/research/bees1.png>
-Package pdftex.def Info: figures/research/bees1.png used on input line 967.
+Package pdftex.def Info: figures/research/bees1.png used on input line 889.
 (pdftex.def)             Requested size: 386.96024pt x 237.5343pt.
- [59]
-<figures/research/fritjof.pdf, id=752, 318.18875pt x 198.7425pt>
+ [54]
+<figures/research/fritjof.pdf, id=689, 318.18875pt x 198.7425pt>
 File: figures/research/fritjof.pdf Graphic file (type pdf)
 
 <use figures/research/fritjof.pdf>
-Package pdftex.def Info: figures/research/fritjof.pdf used on input line 983.
+Package pdftex.def Info: figures/research/fritjof.pdf used on input line 905.
 (pdftex.def)             Requested size: 273.14922pt x 170.60892pt.
- [60 <./figures/research/bees1.png (PNG copy)> <./figures/research/fritjof.pdf>
-] [61]) (./AR2014_copartners.tex [62
+ [55 <./figures/research/bees1.png (PNG copy)> <./figures/research/fritjof.pdf>
+] [56]) (./AR2014_copartners.tex [57
 
 ]
-[63]) (./AR2014_publications.tex
-<./figures/CBA_pub_2013.pdf, id=781, 844.95674pt x 597.432pt>
+[58]) (./AR2014_publications.tex
+<./figures/CBA_pub_2013.pdf, id=718, 844.95674pt x 597.432pt>
 File: ./figures/CBA_pub_2013.pdf Graphic file (type pdf)
 
 <use ./figures/CBA_pub_2013.pdf>
 Package pdftex.def Info: ./figures/CBA_pub_2013.pdf used on input line 29.
 (pdftex.def)             Requested size: 742.775pt x 421.575pt.
- [64 <./figures/CBA_pub_2013.pdf>] [65]
-[66] [67] [68] [69] [70] [71] [72] [73] [74]
+ [59 <./figures/CBA_pub_2013.pdf>] [60]
+[61] [62] [63] [64] [65] [66] [67] [68] [69]
 Overfull \hbox (24.02638pt too wide) in paragraph at lines 382--392
 \OT1/ptm/m/n/10 (1) Julius Wolff In-sti-tute and Berlin-Brandenburg School for 
 Re-gen-er-a-tive Ther-a-pies, Charit[]e Uni-ver-sit[]atsmedizin,
  []
 
-[75
+[70
 
 ]
 Overfull \hbox (1.53711pt too wide) in paragraph at lines 415--422
@@ -1107,13 +1185,13 @@ Overfull \hbox (1.53711pt too wide) in paragraph at lines 415--422
 -ence on Pat-tern Recog-ni-tion Ap-pli-ca-tions and Meth-ods (ICPRAM),
  []
 
-[76] [77] [78] [79] [80]
+[71] [72] [73] [74] [75]
 Overfull \hbox (5.98703pt too wide) in paragraph at lines 562--567
 \OT1/ptm/m/it/10 In Pro-ceed-ings: \OT1/ptm/m/n/10 9th In-ter-na-tional Sym-po-
 sium on Vi-sual Com-put-ing, Ad-vances in Vi-sual Com-put-ing, Rethym-
  []
 
-[81] [82] [83]) [84] (./AR2014_activities.tex
+[76] [77] [78]) [79] (./AR2014_activities.tex
 Underfull \hbox (badness 10000) in paragraph at lines 77--86
 
  []
@@ -1128,7 +1206,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--102
 
  []
 
-[85]
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 102--111
 
  []
@@ -1163,7 +1241,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--166
 
  []
 
-[86]
+[81]
 Underfull \hbox (badness 10000) in paragraph at lines 166--171
 
  []
@@ -1203,7 +1281,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--240
 
  []
 
-[87]
+[82]
 Underfull \hbox (badness 10000) in paragraph at lines 240--246
 
  []
@@ -1228,12 +1306,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 268--273
 
  []
 
-[88] [89]
+[83] [84]
 Underfull \hbox (badness 10000) in paragraph at lines 465--473
 
  []
 
-[90]
+[85]
 Underfull \hbox (badness 10000) in paragraph at lines 473--481
 
  []
@@ -1268,7 +1346,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 522--529
 
  []
 
-[91]
+[86]
 Underfull \hbox (badness 10000) in paragraph at lines 532--540
 
  []
@@ -1308,7 +1386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 595--603
 
  []
 
-[92]
+[87]
 Underfull \hbox (badness 10000) in paragraph at lines 603--611
 
  []
@@ -1348,7 +1426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 664--671
 
  []
 
-[93]
+[88]
 Underfull \hbox (badness 10000) in paragraph at lines 671--679
 
  []
@@ -1388,7 +1466,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 731--738
 
  []
 
-[94]
+[89]
 Underfull \hbox (badness 10000) in paragraph at lines 738--746
 
  []
@@ -1428,7 +1506,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 792--800
 
  []
 
-[95]
+[90]
 Underfull \hbox (badness 10000) in paragraph at lines 800--808
 
  []
@@ -1468,7 +1546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 861--869
 
  []
 
-[96]
+[91]
 Underfull \hbox (badness 10000) in paragraph at lines 869--876
 
  []
@@ -1518,7 +1596,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 933--940
 
  []
 
-[97]
+[92]
 Underfull \hbox (badness 10000) in paragraph at lines 940--948
 
  []
@@ -1563,7 +1641,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 997--1004
 
  []
 
-[98]
+[93]
 Underfull \hbox (badness 10000) in paragraph at lines 1004--1012
 
  []
@@ -1608,7 +1686,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1066--1069
 
  []
 
-[99]
+[94]
 Underfull \hbox (badness 10000) in paragraph at lines 1076--1084
 
  []
@@ -1628,8 +1706,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1110--1116
 
  []
 
-) [100] (./AR2014_committees.tex
-<./figures/tidsskrifter_AR_2013.pdf, id=1175, 722.7pt x 542.025pt>
+) [95] (./AR2014_committees.tex
+<./figures/tidsskrifter_AR_2013.pdf, id=1111, 722.7pt x 542.025pt>
 File: ./figures/tidsskrifter_AR_2013.pdf Graphic file (type pdf)
 
 <use ./figures/tidsskrifter_AR_2013.pdf>
@@ -1647,7 +1725,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--108
 
  []
 
-[101 <./figures/tidsskrifter_AR_2013.pdf>]
+[96 <./figures/tidsskrifter_AR_2013.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 129--133
 
  []
@@ -1657,18 +1735,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--136
 
  []
 
-[102]
+[97]
 Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
-[103]
+[98]
 Overfull \hbox (6.19655pt too wide) in paragraph at lines 386--389
 []\OT1/ptm/m/n/10 Programme Com-mit-tee, 22nd In-ter-na-tional Con-fer-ence on 
 In-tel-li-gent Sys-tems for Molec-u-lar Bi-ol-ogy, Boston,
  []
 
-[104]
+[99]
 Underfull \hbox (badness 10000) in paragraph at lines 418--424
 
  []
@@ -1684,9 +1762,9 @@ Overfull \hbox (4.81673pt too wide) in paragraph at lines 493--496
 ]om to be-come As-so-ciate Pro-fes-sor (Do-cent) at Link[]oping
  []
 
-[105] [106])
+[100] [101])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
- [107]
+ [102]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
  (./AnnualReport2014.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
@@ -1702,10 +1780,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
 ### simple group (level 1) entered at line 76 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8036 strings out of 493315
- 120617 string characters out of 6137905
- 201055 words of memory out of 5000000
- 10755 multiletter control sequences out of 15000+600000
+ 7933 strings out of 493315
+ 118269 string characters out of 6137905
+ 200085 words of memory out of 5000000
+ 10694 multiletter control sequences out of 15000+600000
  36427 words of font info for 83 fonts, out of 8000000 for 9000
  959 hyphenation exceptions out of 8191
  34i,12n,29p,2491b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1724,10 +1802,10 @@ e/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/tex
 mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on AnnualReport2014.pdf (108 pages, 34359786 bytes).
+Output written on AnnualReport2014.pdf (103 pages, 22458291 bytes).
 PDF statistics:
- 1386 PDF objects out of 1440 (max. 8388607)
- 1146 compressed objects within 12 object streams
- 515 named destinations out of 1000 (max. 500000)
- 543 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1318 PDF objects out of 1440 (max. 8388607)
+ 1100 compressed objects within 11 object streams
+ 488 named destinations out of 1000 (max. 500000)
+ 468 words of extra memory for PDF output out of 10000 (max. 10000000)
 
