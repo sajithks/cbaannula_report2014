@@ -392,17 +392,25 @@ Azadeh Fakhrzadeh, Cris Luengo, Gunilla Borgefors\\
 \ppartners{Ellinor Sp\"{o}rndly-Nees,  Lena Holm, Dept.~of Anatomy, Physiology and Biochemistry, SLU}
 \ffunding{SLU (KoN)}
 \pperiod{1009--}
-\aabstract{Reproductive toxicology is the study of chemicals and their effects on the reproductive system of humans and animals. In reproductive toxicology, there is a strong need to detect structural differences in organs that often have both a complex microscopic structure and function. This problem is further complicated because standard techniques are based on the examination of two-dimensional sections of a three-dimensional structure. The aim of this project is to develop methods to objectively describe microscopic structures of male reproductive organs and to test these in reproductive toxicology research. The project is comparative and includes studies of organs from rooster and mink. We are developing automatic and interactive methods to analyse the relevant structures in the histology images of testis.
-
-Generating sperm in seminiferous tubules is a cyclic process, during which various generations of germ cells in the epithelial layer undergo a series of developmental steps. This cycle is typically subdivided into 12 different stages. We are developing a texture-based classification method to determine each tubule's stage. We are able to distinguish consistently stages if they are grouped into five classes (\ref{fig:malereprod}).}
+\aabstract{Reproductive toxicology is the study of chemicals and their effects on the reproductive system of humans and animals. In reproductive toxicology, there is a strong need to detect structural differences in organs that often have both a complex microscopic structure and function. This problem is further complicated because standard techniques are based on the examination of two-dimensional sections of a three-dimensional structure. The aim of this project is to develop methods to objectively describe microscopic structures of male reproductive organs and to test these in reproductive toxicology research. The project is comparative and  includes studies of organs from rooster and mink. We are developing automatic and interactive methods to analyze the relevant structures in the histology images of testis. We have constructed a semi-automatic method to delineate the epithelium cell layer in testicular tissue.
+The cell nuclei are detected using the fast radial symmetry filter. A graph is constructed on top of the epithelial cells (Fig. \ref{testis}). Graph-cut optimization method is used to cut the links between cells of different tubules. Generating sperms in seminiferous tubules is a cyclic process, during which various generations of germ cells in epithelial layer undergo a series of developmental steps. This cycle can be subdivided into 12 different stages. We are currently developing a texture-based classification method to determine each tubule's stage.}
 
 \begin{figure}[h]
 \centering %\scalebox{1}{}
-\includegraphics[width=0.8\textwidth]{figures/research/5class.pdf}
- \caption{Cross sections of seminiferous tubules representative for	the five classes we can distinguish consistently. Differences are mostly in the shape of the nuclei (stained in brown).}
- \label{fig:malereprod}
+\includegraphics[width=0.8\textwidth]{figures/research/M1001cut.png}
+ \caption{A graph constructed on top of Gata-4 marked germ cells.}
+ \label{testis}
  \end{figure}
 
+%QQQ
+
+\item 
+\textbf{Automated Classification of Immunostaining Patterns in Breast Tissue from the Human Protein Atlas}\\
+Andreas K{\aa}rsn\"{a}s, Martin Simonsson, Carolina W\"{a}hlby, Robin Strand\\
+\ppartners{Caroline Kampf, The Human Protein Atlas (HPA); Virginie Uhlmann,  Imaging Platform, Broad Institute of Harvard and MIT, Cambridge, Massachusetts MA, USA; S. Issac Niwas, P. Palanisamy, Dept.~of ECE, National Institute of Technology (NIT), Tiruchirappalli, India}
+\ffunding{SciLifeLab Uppsala}
+\pperiod{1201-1303}
+\aabstract{The Human Protein Atlas (HPA) is an effort to map the location of all human proteins (\url{http://www.proteinatlas.org/}) and contains a large number of histological images of sections from human tissue. Methods for quantification of staining patterns in histopathology have many applications, ranging from antibody quality control to tumor grading. In this project we have tested a new method based on complex wavelets textural features as well as an approach inspired by WNDCHARM (Weighted Neighbor Distances using a Compound Hierarchy of Algorithms Representing Morphology) for classifying nuclear versus cytoplasmic staining. During 2013, a paper was published in Journal of Pathology Informatics.}
 
 %RRR
 
@@ -414,46 +422,68 @@ Andreas K{\aa}rsn\"{a}s, Robin Strand, Carolina W\"{a}hlby, Ewert Bengtsson\\
 \ffunding{NordForsk Private Public Partnership PhD Programme and Visiopharm}
 \pperiod{0909--}
 \aabstract{The results of analyses of tissue biopsies by pathologists are crucial for breast cancer patients. In particular, the precision of a patient's prognosis, and the ability to predict the consequences of various treatment opportunities before actually exposing the cancer patient, depend on the detection and quantification of biomarkers in tissue sections by microscopy. Experience from the last decade has revealed that manual detection and quantification of biomarkers by microscopy of tissue biopsies is highly dependent on the competencies and stamina of the individual pathologist. The aim of the present PhD project is to develop software-based algorithms that can facilitate the workflow and ensure objective and more precise results of the quantitative microscopy procedures in breast cancer.
-	
-During 2014, Andreas defended his PhD thesis \textit{Image Analysis Methods and Tools for Digital Histopathology Applications Relevant to Breast Cancer Diagnosis}. A manuscript describing a new method for registering histological images of consecutive sections with different staining by using locally rigid transforms is currently under review and a journal article presenting a histopathological tool for sub-cellular quantification was accepted for publication in the journal \textit{Computer methods in Biomechanics and Biomedical Engineering: Imaging \& Visualization.} in 2014}
+
+During 2012, we worked on a project for verifying antibodies by comparing staining patterns in immune-stained histological images. The project was made in collaboration with the Human Protein Atlas project. We made a comparison of different methods for classifying staining patterns in histology. This work was presented at MICCAI'12 in Nice. We also presented the \textit{vectorial minimum barrier distance}, a new method for computing gray-weighted distance transforms while incorporating vectorial data, at ICPR'12 in Tsukuba, Japan. 
+
+Early 2013, we started a new project aimed at developing a new method for registering histological images of consecutive sections with different staining. The project resulted in an article about multimodal registration using locally rigid transforms. The article is currently under review. In 2013, we also finished a journal article presenting a histopathological tool for sub-cellular quantification. The article was accepted early 2014 for publication in the journal \textit{Computer methods in Biomechanics and Biomedical Engineering: Imaging \& Visualization.}}
 
 %SSS
 
 \item 
 \textbf{Automatic, Quantitative Malignancy Grading of Prostate Cancer using Image Analysis}\\
 Ingrid Carlbom, Christophe Avenel\\
-\ppartners{Christer Busch, Department of Surgical Sciences, and Anna Tolf, Department of Genetics and Pathology, University Hospital}
-\ffunding{Vetenskapsrådet (2009-5418 and 2012-3667): 394.5 K SEK ; Funding: Hagstrandska fonden: 300K SEK.}
-\pperiod{2014-01-01 –- 2014-12-31}
-\aabstract{\textit{Online Prostate Tissue Grading Tool: }Using our OpenSeaDragon-based image selection tool we built an image database of 650 small images from whole mount sections, where each image has one dominant pattern that represents a malignancy grade, precancerous tissue, or benign tissue. With our online grading tool, fourteen internationally prominent pathologists from seven countries are in the process of grading these images according to the Gleason system. (See Figure \ref{fig:userintpros}.) 
-	
-With 50\% of the images graded, we see similar grade variations as seen in other studies; for example, in 43\% of the cases more than three pathologists disagree. But unlike other studies on intra- and interobserver grading variation, which are based on entire biopsies or whole mounts, each image in our study contains only one dominant pattern, allowing us to identify patterns that cause the discrepancies. Our goal is to establish a consensus for these patterns, thereby promoting international grading standardization.
-
-\textit{Automatic segmentation of prostate glands and nuclei: }Using the stromal density map from the color decomposition of Sirius-hematoxylin-stained tissue, we extract the glandular structures using morphological operations combined with standard image processing operations. With the glandular units as masks, we then extract the epithelium and the lumen from the epithelial density maps. Qualitative analysis of over 5000 glands indicates that the segmentation results in highly accurate representations of the glandular shape, including the epithelium and the lumen. (Figure \ref{fig:segglandpros}.)
-
-Earlier we developed an algorithm to find the epithelial nuclei locations and approximate shapes in the epithelial density maps. We have augmented the algorithm to find a more precise shape of the nuclei using a deformable circular model \ref{fig:nucleipros}.
-
-\textit{Consensus-Based Training Dataset: }	Using the automatically segmented glandular units, we label each gland based on the Gleason Grade produced by one pathologist. This labelling is on a finer scale than the Gleason grades; for example, grade 4 will be separated into fine caliber 4 and cribriform 4. Other grades are also divided to capture differences within the grade. To date we have labelled more than 5000 glands with one pathologist, giving us a dataset for continued development of our automatic grading algorithm. The labels will be updated when we reach a consensus grade with our international panel of experts.}
+\ppartners{Christer Busch and Anna Tolf, Department of Immunology, Genetics and Pathology, University Hospital}
+\ffunding{The Swedish Research Council, Hillevi Fries Research Fund}
+\pperiod{1001--}
+\aabstract{Gleason grading is the most widely used system for determining the severity of prostate cancer. The Gleason grade is determined visually under a microscope from prostate tissue that is most often stained with Hematoxylin-Eosin (H\&E).
 
 \begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=.6\textwidth]{figures/research/userinterfaceprostate.png}
-	\caption{The user gives a Gleason Score below the image, or indicate PIN or benign as the primary pattern} 
-	\label{fig:userintpros}
+\centering
+\includegraphics[width=.95\textwidth]{figures/research/prostate2.png}
+\caption{Results of color decomposition: (a) original tissue image stained with Sir-Htx, (b) stroma density map, and (c) epithelial density map; (d) original tissue image stained with H\&E, (e) stroma density map, and (f) nuclei density map. \label{fig:prostate2}}
 \end{figure}
 
-\begin{figure}[!htbp]
-	\centering
-	\subfigure[]{\includegraphics[width=0.4\textwidth]{figures/research/segglandpros.png} \label{fig:segglandpros}}
-	\subfigure[]{\includegraphics[width=0.4\textwidth]{figures/research/segnucleipros.png}\label{fig:nucleipros}}
-	\caption{(a) Segmented glands; (b) Segmented epithelial nuclei}
-	
+\textit{Stain for blind color decomposition} In an earlier study we demonstrated that H\&E is not ideal for machine learning applications, but that other stains, such as Sirius-hematoxylin (Sir-Htx), may perform better. This year we demonstrated the advantages of this stain over H\&E for blind color decomposition (Fig. \ref{fig:prostate2}). When compared to ground truth defined by an experienced pathologist, the relative root-mean-square errors of the color decomposition mixing matrices for Sir-Htx are better than those for H\&E by a factor of two, and the Pearson correlation coefficients of the density maps resulting from the decomposition of Sir-Htx-stained tissue gives a 99\% correlation with the ground truth. Qualitative examples of the density maps confirm the quantitative findings and illustrate that the density maps will allow accurate segmentation of morphological features that determine the Gleason grade.
+\newpage
+\textit{Identification of epithelial nuclei} From the epithelial density map, resulting from the blind color decomposition of Sir-Htx-stained prostate tissue, we used a marked point process to segment the epithelial nuclei (Fig. \ref{fig:prostate3}). This enables us to extract nuclei as individual, joint, or overlapping objects generally without discarding overlapping parts and therefore without major loss in segmentation precision. The algorithm, which was originally developed for breast cancer tissue nuclei identification, uses simulated annealing combined with a "birth and death" process to find the best match with the density map, and was adapted to prostate tissue by pre-and-post processing methods.
+
+\textit{Database of images from whole mount sections} We have created two online tools in order to build a database of graded images. The image selection tool is based on OpenSeaDragon (an open-source, web-based viewer for zoomable images) and facilitates the selection of small images from whole mount sections. With this tool we are building an image database where each image has a dominant pattern that represents for example one Gleason grade, benign tissue, stroma, or artifacts such as a tear in the tissue. The grading tool allows multiple pathologists to grade and comment on the previously selected images, without seeing each other grades, and is a basis for a consensus-graded database for developing and testing automatic Gleason grading algorithms (Fig. \ref{fig:prostate4}).} 
+
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{figures/research/prostate3.jpg}
+\caption{Epithelial nuclei identified by the marked point process. \label{fig:prostate3}}
 \end{figure}
 
+\begin{figure}
+\centering
+\includegraphics[width=.9\textwidth]{figures/research/prostate4.jpg}
+\caption{Example of a sub-section of a whole-mount tissue section with three individual scores. \label{fig:prostate4}}
+\end{figure}
 
 %TTT
 \newpage
 
+\item 
+\textbf{Automated Quantification of Zebrafish Tail Deformation for High-throughput Drug Screening}\\
+Omer Ishaq, Alexandra Pacureanu, Carolina W\"{a}hlby\\
+\ppartners{Joseph Negri, Mark-Anthony Bray, Randall T. Peterson, Broad Institute of Harvard and MIT}
+\ffunding{SciLifeLab Uppsala}
+\pperiod{1203--1304}
+\aabstract{Zebrafish (\emph{Danio rerio}) is an important model organism in biomedical research due to its ease of handling and translucent body and consequently many human disease models have been established in the Zebrafish. Zebrafish embryos undergo spinal deformation upon exposure to chemical agents, such as Camptothecin (Cpt), that inhibit DNA repair. We are developing automated image-based quantification of spine deformation enabling whole-organism based assays for use in early-phase drug discovery campaigns. Our automated method for accurate high-throughput measurement of tail deformations in multi-fish micro-plate wells generates refined medial representations of partial tail-segments. Subsequently, these disjoint segments are analyzed and fused to generate complete Zebrafish tails (Fig. \ref{fig::zebrafish_curvature}). Based on these estimated tail curvatures we reach a classification accuracy of 91\% on individual animals as compared to known control treatment. This accuracy is increased to 95\% when combining scores for fish in the same well. A paper describing the methods and results was published and presented at the International Symposium for Biomedical Imaging (ISBI) in April 2013.}
+
+\begin{figure*}[!htbp]
+\centering
+\subfigure[]{\includegraphics[width=0.3\textwidth]{figures/research/curvature1.png}}
+\subfigure[]{\includegraphics[width=0.3\textwidth]{figures/research/curvature2.png}}
+\subfigure[]{\includegraphics[width=0.3\textwidth]{figures/research/curvature3.png}}
+
+\subfigure[]{\includegraphics[width=0.3\textwidth]{figures/research/curvature4.png}}
+\subfigure[]{\includegraphics[width=0.3\textwidth]{figures/research/curvature5.png}}
+\subfigure[]{\includegraphics[width=0.3\textwidth]{figures/research/curvature6.png}}
+\caption{Steps for curvature extraction: (a) An input image; (b) After illumination correction; (c) Binary image after smoothing and thresholding; (d) Computed medial axes (highlighted in green) and seed-points (highlighted in red); (e) Refined medial axes (highlighted in yellow); (f) Medial axis fusion: the red lines represent tail-segments fused together to yield the complete tails (shown in yellow).}
+\label{fig::zebrafish_curvature}
+\end{figure*}
 
 %UUU
 
@@ -463,21 +493,69 @@ Petter Ranefall, Carolina W\"{a}hlby\\
 \ppartners{Marcel den Hoed, Manoj Bandaru, Erik Ingelsson, Department of Medical Sciences and SciLifeLab, UU}
 \ffunding{SciLifeLab Uppsala}
 \pperiod{1308--}
-\aabstract{The aim of this project is to identify novel targets for the therapeutic intervention of coronary artery disease. This is done by following-up results from genome-wide association studies in epidemiological studies using a zebrafish model system. Using image analysis we try to identify and characterize causal genes within loci that have so far been identified as associated with coronary heart disease by (high-throughput) screening of atherogenic processes in wildtype and mutant zebrafish, both before and after feeding on a control diet or a diet high in cholesterol. Using confocal microscopy we can image fat accumulation in the zebrafish. Our results confirm that zebrafish larvae represent a promising model system for early-stage atherosclerosis. An abstract has been submitted.}
+\aabstract{The aim of this project is to identify novel targets for the therapeutic intervention of coronary artery disease. This is done by following-up results from genome-wide association studies in epidemiological studies using a zebrafish model system.  Using image analysis we try to identify and characterize causal genes within loci that have so far been identified as associated with coronary heart disease by (high-throughput) screening of atherogenic processes in wildtype and mutant zebrafish, both before and after feeding on a control diet or a diet high in cholesterol. Using confocal microscopy we can image fat accumulation in the zebrafish (Fig. \ref{fig:hamid}).}
 
+\begin{figure}[!htbp]
+\centering
+\subfigure[]{\includegraphics[width=44mm,height=44mm]{figures/research/lipid1.png}}
+\subfigure[]{\includegraphics[width=44mm,height=44mm]{figures/research/lipid2.png}}
+\caption{\label{fig:hamid}
+The image to the left is a maximum projection of the zebrafish image volume, and the image to the right shows the detected stationary lipids in red.}
+\end{figure}
 
+%VVV
+
+\item \textbf{Optical Projection Tomography}\\
+Alexandra Pacureanu, Omer Ishaq, Carolina W\"{a}hlby\\
+\ppartners{Amin Allalou, Izolde AB, Uppsala; Johan Ledin, Evolutionary Biology Centre, Zebrafish platform, SciLifeLab Uppsala; Jos Buijs, Ridgeview Uppsala, Carlos Pardo, Mehmet F. Yanik, Research Laboratory of Electronics, Massachusetts Institute of Technology, Cambridge, USA}
+\ffunding{SciLifeLab Uppsala; TN-faculty, UU}
+\pperiod{1009--}
+\aabstract{Isotropic 3D imaging of biological specimens is instrumental for further breakthroughs in life sciences. Many biological specimens with high relevance for basic research, disease studies and drug discovery, such as model organisms or 3D cell cultures, are semi-transparent to visible light. This lead to the advent of the technique dubbed optical projection tomography (OPT). The 3D internal structure is revealed by the attenuation variations of the light traversing the specimen. In OPT transverse slices of the specimen are reconstructed from a set of angular projections and stacked together into a volumetric image. This method enables in vivo imaging of relatively large samples with high spatial resolution. A high-throughput platform for cellular resolution, in vivo OPT of zebrafish has been developed at MIT, Cambridge, USA. With this system we have shown that OPT of zebrafish embryos can provide 3D information enabling high-throughput screening of subtle phenotypic changes in relation to drug treatment, as published in Nature Communications in February 2013. However, OPT imaging systems in general are still quite sophisticated and costly. We are therefore developing a system for optical 3D isotropic imaging at microscopic scale, based on readily accessible hardware. The total price of the setup is kept under 1000 euros and the components can be easily obtained around the world. We have assembled the image acquisition system, acquired, and reconstructed images of zebrafish embryos (Fig. \ref{fig::tomography_fish}) and of 3D cell cultures (Fig. \ref{fig::tomography_cell}). We are complementing the simple hardware with open source computational tools, embedding algorithms for image alignment, correction and reconstruction. Our goal is to enable every life sciences research laboratory to have access to valuable 3D information on biological specimens.
+In 2013, besides working on improving imaging of zebrafish embryos, we attempted to image 3D cell cultures with our system, in collaboration with Jos Buijs (Ridgeview). A human ovarian carcinoma cell line has been used to grow 3D cell cultures in borosilicate thin tubes. We also tested growing the cells in agar gels and performing a 'biopsy' to extract the cells and transfer them into borosilicate tubes for imaging. We presented a poster at IEEE International Symposium on Biomedical Imaging (ISBI), San Francisco, USA and a journal manuscript is under preparation.}
+
+\begin{figure*}[!htbp]
+\centering
+\subfigure[]{\includegraphics[width=26mm,height=55mm]{figures/research/zf1.png}}
+\subfigure[]{\includegraphics[width=26mm,height=55mm]{figures/research/zf2.png}}
+\subfigure[]{\includegraphics[width=26mm,height=55mm]{figures/research/zf3.png}}
+\subfigure[]{\includegraphics[width=26mm,height=55mm]{figures/research/zf4.png}}
+\caption{(a) Recorded projection of a zebrafish embryo. (b) The projection after flat field correction. (c) Reconstructed frontal slice. (d) Volume rendering of the reconstructed image.}
+\label{fig::tomography_fish}
+\end{figure*}
+
+\begin{figure*}[!htbp]
+\centering
+\subfigure[]{\includegraphics[width=40mm,height=40mm]{figures/research/cell1.png}}
+\subfigure[]{\includegraphics[width=40mm,height=40mm]{figures/research/cell2.png}}
+\caption{(a) Projection of a 3D cell culture. (b) Volume rendering of the reconstructed image.}
+\label{fig::tomography_cell}
+\end{figure*}
+
+%WWW
+\item 
+\textbf{Image-based Approaches for Drug Tablet Quality Assessment}\\
+Ida-Maria Sintorn, Carolina W\"{a}hlby\\
+\ppartners{Mark Nicholas, Mats Josefson, AstraZeneca, M\"{o}lndal, Sweden}
+\ffunding{Pre-study grant from AIMDay Image, UU Innovation}
+\pperiod{1204--1302}
+\aabstract{It is known qualitatively that microstructural differences in solid dosage forms (e.g. tablets and inhalation powders) affect the performance of the medication. The microstructural differences are differences in the spatial distribution of active and inactive compounds. The aim of this project is to characterize these microstructural differences in order to determine whether imaging techniques such as CLSM (confocal laser scanning microscopy), wide-field fluorescence microscopy, and TOF-SIMS (Time-Of-Flight Secondary Ion Mass Spectroscopy) can reveal quantifiable differences in structure.  The problem was addressed using a combination of local intensity features and texture measurements (including granulometry, Zernike moments, and Haralick features), and measurements were correlated with tablet characteristics/treatments. Due to a relatively limited dataset, it was difficult to find statistically significant differences. The data was presented to AstraZeneca researchers in January 2013.}
 
 % XXX
-
+\newpage
 \item
 \label{proj:gigapixel}
 \textbf{Tools for Analysis and Visualization of Giga-Pixel Sized  Slide-Scanner Images.}\\
-Petter Ranefall, Alexandra Pacureanu, Carolina W\"{a}hlby, Thu Tran\\
-\ppartners{Mats Nilsson, Thomas Hauling, Marco Mignardi, Jessica Svedlund, Elin Lundin,Xiaoyan Qian, Department of Biochemistry and Biophysics and SciLifeLab, Stockholm University.}
+Petter Ranefall, Alexandra Pacureanu, Carolina W\"{a}hlby\\
+\ppartners{Mats Nilsson, Thomas Hauling, Marco Mignardi, Jessica Svedlund, Elin Lundin, Department of Biochemistry and Biophysics and SciLifeLab, Stockholm University.}
 \ffunding{SciLifeLab}
 \pperiod{1308--}
-\aabstract{The aim is to create a tool for full resolution image analysis of large images, e.g. slide scanner data, with the possibility of visual examination and interaction at multiple resolutions. The tool is built on a free and open-source framework for visual examination at multiple resolutions with the option to toggle results on or off, such as segmentation masks, classification results, and tissue morphology measurements, using a map view with seamless zooming and panning capabilities, allowing for fast navigation between a full-tissue view and high-resolution sub-cellular observations. The aim is to also have an interface that enables visual/manual selection of regions of interest, target discovery, and understanding of novel spatial relationships within the tissue environment. A bachelor thesis project with the aim of designing the user interface was carried out by the student Thu Tran. This user interface has then been extended with full functionality into a system that we call ‘TissueMaps’, which is now being evaluated at Mats Nilsson’s lab. During 2014 ‘TissueMaps’ has also been presented/demonstrated at some different conferences: BioImage Informatics in Leuven, Belgium, eSSENCE in Ume\aa, SSBA in Lule\aa, and the Nordic Symposium on Digital Pathology in Link\"oping.}
+\aabstract{The aim is to create a tool for full resolution image analysis of large images, e.g. slide scanner data, with the possibility of visual examination and interaction at multiple resolutions. The tool is built on a free and open-source framework for visual examination at multiple resolutions with the option to toggle results on or off, such as segmentation masks, classification results, and tissue morphology measurements, using a map view with seamless zooming and panning capabilities, allowing for fast navigation between a full-tissue view and high-resolution sub-cellular observations (Fig. \ref{fig:gigapixel}). The aim is to also have an interface that enables visual/manual selection of regions of interest, target discovery, and understanding of novel spatial relationships within the tissue environment.}
 
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/research/gigapixel.png}
+\caption{\label{fig:gigapixel} A description of the workflow.} 
+\end{figure}
 
 
 \clearpage
