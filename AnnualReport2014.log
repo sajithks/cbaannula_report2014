@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.8)  22 FEB 2015 22:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.8)  23 FEB 2015 09:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -292,72 +292,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+Package textcomp Info: Changing ? sub-encoding to TS1/1 on input line 72.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2012/08/31 v0.4t Insert pages of external PDF documents (AM)
@@ -392,28 +332,28 @@ File: pppdftex.def 2012/08/31 v0.4t Pdfpages driver for pdfTeX (AM)
 (./AnnualReport2014.aux)
 \openout1 = `AnnualReport2014.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 65.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 63.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 65.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -447,7 +387,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 63.
+Package hyperref Info: Link coloring OFF on input line 65.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -457,69 +397,69 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
-LaTeX Info: Redefining \nameref on input line 63.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
 
 (./AnnualReport2014.out) (./AnnualReport2014.out)
 \@outlinefile=\write4
 \openout4 = `AnnualReport2014.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
-LaTeX Font Info:    Try loading font information for U+msa on input line 121.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
+LaTeX Font Info:    Try loading font information for U+msa on input line 123.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 121.
+LaTeX Font Info:    Try loading font information for U+msb on input line 123.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
  [1
 Non-PDF special ignored!
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--196
+Underfull \hbox (badness 10000) in paragraph at lines 183--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--196
+Underfull \hbox (badness 10000) in paragraph at lines 183--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--196
+Underfull \hbox (badness 10000) in paragraph at lines 183--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--196
+Underfull \hbox (badness 10000) in paragraph at lines 183--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--196
+Underfull \hbox (badness 10000) in paragraph at lines 183--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--198
 
  []
 
 [2] [3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 199.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 201.
  (./AnnualReport2014.toc)
 \tf@toc=\write5
 \openout5 = `AnnualReport2014.toc'.
@@ -620,7 +560,7 @@ Package pdftex.def Info: figures/research/MiniTEMAdenoRotaAr2013_FOV500nm.png u
 sed on input line 197.
 (pdftex.def)             Requested size: 182.09485pt x 182.09259pt.
 
-Overfull \hbox (2.48212pt too wide) in paragraph at lines 213--219
+Overfull \hbox (2.48212pt too wide) in paragraph at lines 213--220
 \OT1/ptm/m/n/10.95 im-age ac-qui-si-tion tech-nique for single-molecule lo-cal-
 iza-tion. Like other stochas-tic super-resolution
  []
@@ -630,48 +570,32 @@ iza-tion. Like other stochas-tic super-resolution
 R2013.png (PNG copy)> <./figures/research/MiniTEMAdenoRotaAr2013_FOV500nm.png (
 PNG copy)>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 223.
-
-
-! Package textcomp Error: Symbol \textcurrency not provided by
-(textcomp)                font family ptm in TS1 encoding.
-(textcomp)                Default family used instead.
-
-See the textcomp package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 ...analysis of cell and tissue morphology'.}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<figures/research/insitumrna.png, id=400, 455.301pt x 162.3666pt>
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 225.
+ <figures/research/insitumrna.png, id=400, 455.301pt x 162.3666pt>
 File: figures/research/insitumrna.png Graphic file (type png)
 
 <use figures/research/insitumrna.png>
-Package pdftex.def Info: figures/research/insitumrna.png used on input line 232
+Package pdftex.def Info: figures/research/insitumrna.png used on input line 234
 .
 (pdftex.def)             Requested size: 386.96024pt x 137.99986pt.
  [30 <./figures/research/insitumrna.png>]
-<figures/research/kristinapipeline.pdf, id=416, 619.39719pt x 279.68188pt>
+<figures/research/kristinapipeline.pdf, id=415, 619.39719pt x 279.68188pt>
 File: figures/research/kristinapipeline.pdf Graphic file (type pdf)
 
 <use figures/research/kristinapipeline.pdf>
 Package pdftex.def Info: figures/research/kristinapipeline.pdf used on input li
-ne 266.
+ne 268.
 (pdftex.def)             Requested size: 318.66946pt x 143.8948pt.
 
-<figures/research/kristinacomparison.pdf, id=417, 511.3232pt x 369.79828pt>
+<figures/research/kristinacomparison.pdf, id=416, 511.3232pt x 369.79828pt>
 File: figures/research/kristinacomparison.pdf Graphic file (type pdf)
 
 <use figures/research/kristinacomparison.pdf>
 Package pdftex.def Info: figures/research/kristinacomparison.pdf used on input 
-line 274.
+line 276.
 (pdftex.def)             Requested size: 318.66946pt x 230.4688pt.
  [31]
-Overfull \hbox (1.72855pt too wide) in paragraph at lines 288--295
+Overfull \hbox (1.72855pt too wide) in paragraph at lines 290--297
 \OT1/ptm/m/it/10.95 Partners: \OT1/ptm/m/n/10.95 Sven Nelander, Karin Forsberg-
 Nilsson, Irina Ala-fu-zoff, Ulf Lan-de-gren, Anna Segerman,
  []
@@ -688,361 +612,106 @@ n.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 File: figures/research/stemcell.png Graphic file (type png)
 
 <use figures/research/stemcell.png>
-Package pdftex.def Info: figures/research/stemcell.png used on input line 299.
+Package pdftex.def Info: figures/research/stemcell.png used on input line 301.
 (pdftex.def)             Requested size: 386.96024pt x 136.3619pt.
 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.300 ... of the cell population in the 4N phase.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.300 ... of the cell population in the 4N phase.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.300 ... of the cell population in the 4N phase.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.300 ... of the cell population in the 4N phase.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-Overfull \hbox (27.29567pt too wide) in paragraph at lines 308--315
+Overfull \hbox (27.29567pt too wide) in paragraph at lines 310--317
 \OT1/ptm/m/it/10.95 Abstract: \OT1/ptm/m/n/10.95 The corneal en-dothe-lium play
 s a key role in main-tain-ing the trans-parency of the cornea.Because
  []
 
-[33
-! Undefined control sequence.
-\reserved@a ->\@nil 
-                    
-l.332 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\reserved@a ->\@nil 
-                    
-l.332 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\reserved@a ->\@nil 
-                    
-l.332 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\reserved@a ->\@nil 
-                    
-l.332 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
- <./figures/research/stemcell.png>] [34]
-<figures/research/ecoliseg.png, id=485, 384.4764pt x 151.2852pt>
+[33 <./figures/research/stemcell.png>] [34]
+<figures/research/ecoliseg.png, id=488, 384.4764pt x 151.2852pt>
 File: figures/research/ecoliseg.png Graphic file (type png)
 
 <use figures/research/ecoliseg.png>
-Package pdftex.def Info: figures/research/ecoliseg.png used on input line 367.
+Package pdftex.def Info: figures/research/ecoliseg.png used on input line 369.
 (pdftex.def)             Requested size: 386.96024pt x 152.26358pt.
 
-Overfull \hbox (4.83794pt too wide) in paragraph at lines 378--386
+Overfull \hbox (4.83794pt too wide) in paragraph at lines 380--388
 \OT1/ptm/m/it/10.95 Funding: \OT1/ptm/m/n/10.95 TN-faculty, UU; S-faculty, SLU;
  VIN-N-MER pro-gramme, Swedish Gov-ern-men-tal Agency
  []
 
 [35 <./figures/research/ecoliseg.png>]
-<figures/research/5class.pdf, id=495, 1265.72874pt x 647.41875pt>
+<figures/research/5class.pdf, id=498, 1265.72874pt x 647.41875pt>
 File: figures/research/5class.pdf Graphic file (type pdf)
 
 <use figures/research/5class.pdf>
-Package pdftex.def Info: figures/research/5class.pdf used on input line 401.
+Package pdftex.def Info: figures/research/5class.pdf used on input line 403.
 (pdftex.def)             Requested size: 364.19664pt x 186.28456pt.
  [36 <./figures/research/5class.pdf>]
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.427 \pperiod{2014-01-01 –- 2014-12-31}
-                                          
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.427 \pperiod{2014-01-01 –- 2014-12-31}
-                                          
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-<figures/research/userinterfaceprostate.png, id=513, 181.1568pt x 114.1866pt>
+<figures/research/userinterfaceprostate.png, id=516, 181.1568pt x 114.1866pt>
 File: figures/research/userinterfaceprostate.png Graphic file (type png)
 
 <use figures/research/userinterfaceprostate.png>
 Package pdftex.def Info: figures/research/userinterfaceprostate.png used on inp
-ut line 440.
+ut line 442.
 (pdftex.def)             Requested size: 273.14922pt x 172.1698pt.
 
-<figures/research/segglandpros.png, id=514, 164.2938pt x 114.1866pt>
+<figures/research/segglandpros.png, id=517, 164.2938pt x 114.1866pt>
 File: figures/research/segglandpros.png Graphic file (type png)
 
 <use figures/research/segglandpros.png>
 Package pdftex.def Info: figures/research/segglandpros.png used on input line 4
-47.
+49.
 (pdftex.def)             Requested size: 182.09485pt x 126.5674pt.
 
-<figures/research/segnucleipros.png, id=515, 165.2574pt x 114.1866pt>
+<figures/research/segnucleipros.png, id=518, 165.2574pt x 114.1866pt>
 File: figures/research/segnucleipros.png Graphic file (type png)
 
 <use figures/research/segnucleipros.png>
 Package pdftex.def Info: figures/research/segnucleipros.png used on input line 
-448.
+450.
 (pdftex.def)             Requested size: 182.09485pt x 125.82516pt.
  [37]
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 ...ium on Digital Pathology in Link\"oping.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 ...ium on Digital Pathology in Link\"oping.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 ...ium on Digital Pathology in Link\"oping.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 ...ium on Digital Pathology in Link\"oping.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 ...ium on Digital Pathology in Link\"oping.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 ...ium on Digital Pathology in Link\"oping.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 ...ium on Digital Pathology in Link\"oping.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 ...ium on Digital Pathology in Link\"oping.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 ...ium on Digital Pathology in Link\"oping.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 ...ium on Digital Pathology in Link\"oping.}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-Overfull \hbox (1.88101pt too wide) in paragraph at lines 474--480
+Overfull \hbox (1.88101pt too wide) in paragraph at lines 476--482
 \OT1/ptm/m/it/10.95 Partners: \OT1/ptm/m/n/10.95 Mats Nils-son, Thomas Haul-ing
 , Marco Mignardi, Jes-sica Sved-lund, Elin Lundin,Xiaoyan
  []
 
 [38 <./figures/research/userinterfaceprostate.png> <./figures/research/seggland
 pros.png> <./figures/research/segnucleipros.png>] [39]
-<figures/research/haptic1.png, id=539, 213.525pt x 156.366pt>
+<figures/research/haptic1.png, id=542, 213.525pt x 156.366pt>
 File: figures/research/haptic1.png Graphic file (type png)
 
 <use figures/research/haptic1.png>
-Package pdftex.def Info: figures/research/haptic1.png used on input line 533.
+Package pdftex.def Info: figures/research/haptic1.png used on input line 551.
 (pdftex.def)             Requested size: 170.72247pt x 128.04198pt.
 
-<figures/research/haptic2.png, id=540, 213.1965pt x 156.366pt>
+<figures/research/haptic2.png, id=543, 213.1965pt x 156.366pt>
 File: figures/research/haptic2.png Graphic file (type png)
 
 <use figures/research/haptic2.png>
-Package pdftex.def Info: figures/research/haptic2.png used on input line 533.
+Package pdftex.def Info: figures/research/haptic2.png used on input line 551.
 (pdftex.def)             Requested size: 170.72008pt x 128.04198pt.
 
-<figures/research/haptic3.png, id=542, 241.27061pt x 344.6723pt>
+<figures/research/haptic3.png, id=545, 241.27061pt x 344.6723pt>
 File: figures/research/haptic3.png Graphic file (type png)
 
 <use figures/research/haptic3.png>
-Package pdftex.def Info: figures/research/haptic3.png used on input line 533.
+Package pdftex.def Info: figures/research/haptic3.png used on input line 551.
 (pdftex.def)             Requested size: 82.51318pt x 142.26848pt.
 
-<figures/research/haptic4.png, id=543, 240.15877pt x 344.6723pt>
+<figures/research/haptic4.png, id=546, 240.15877pt x 344.6723pt>
 File: figures/research/haptic4.png Graphic file (type png)
 
 <use figures/research/haptic4.png>
-Package pdftex.def Info: figures/research/haptic4.png used on input line 533.
+Package pdftex.def Info: figures/research/haptic4.png used on input line 551.
 (pdftex.def)             Requested size: 82.51039pt x 142.26848pt.
 
-<figures/research/haptic5.png, id=544, 241.27061pt x 344.6723pt>
+<figures/research/haptic5.png, id=547, 241.27061pt x 344.6723pt>
 File: figures/research/haptic5.png Graphic file (type png)
 
 <use figures/research/haptic5.png>
-Package pdftex.def Info: figures/research/haptic5.png used on input line 533.
+Package pdftex.def Info: figures/research/haptic5.png used on input line 551.
 (pdftex.def)             Requested size: 82.51318pt x 142.26848pt.
 
-<figures/research/haptic6.png, id=545, 240.15877pt x 344.6723pt>
+<figures/research/haptic6.png, id=548, 240.15877pt x 344.6723pt>
 File: figures/research/haptic6.png Graphic file (type png)
 
 <use figures/research/haptic6.png>
-Package pdftex.def Info: figures/research/haptic6.png used on input line 533.
+Package pdftex.def Info: figures/research/haptic6.png used on input line 551.
 (pdftex.def)             Requested size: 82.51039pt x 142.26848pt.
 
 
@@ -1051,120 +720,120 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [40
 
  <./figures/research/haptic1.png> <./figures/research/haptic2.png>]
-<figures/research/haptic7.jpg, id=557, 829.9005pt x 183.084pt>
+<figures/research/haptic7.jpg, id=560, 829.9005pt x 183.084pt>
 File: figures/research/haptic7.jpg Graphic file (type jpg)
 
 <use figures/research/haptic7.jpg>
-Package pdftex.def Info: figures/research/haptic7.jpg used on input line 533.
+Package pdftex.def Info: figures/research/haptic7.jpg used on input line 551.
 (pdftex.def)             Requested size: 355.65991pt x 91.05008pt.
  [41 <./figures/research/haptic3.png> <./figures/research/haptic4.png> <./figur
 es/research/haptic5.png> <./figures/research/haptic6.png> <./figures/research/h
 aptic7.jpg>]
-<figures/research/proviz_search_and_score_volumes.PNG, id=573, 649.2255pt x 318
+<figures/research/proviz_search_and_score_volumes.PNG, id=576, 649.2255pt x 318
 .59026pt>
 File: figures/research/proviz_search_and_score_volumes.PNG Graphic file (type p
 ng)
  <use figures/research/proviz_search_and_score_volumes.PNG>
 Package pdftex.def Info: figures/research/proviz_search_and_score_volumes.PNG u
-sed on input line 553.
+sed on input line 571.
 (pdftex.def)             Requested size: 409.71689pt x 201.05807pt.
  [42 <./figures/research/proviz_search_and_score_volumes.PNG>]
-<figures/research/interactive_image_registration.png, id=584, 1100.11pt x 669.5
+<figures/research/interactive_image_registration.png, id=587, 1100.11pt x 669.5
 0125pt>
 File: figures/research/interactive_image_registration.png Graphic file (type pn
 g)
  <use figures/research/interactive_image_registration.png>
 Package pdftex.def Info: figures/research/interactive_image_registration.png us
-ed on input line 586.
+ed on input line 604.
 (pdftex.def)             Requested size: 295.90587pt x 180.0833pt.
  [43 <./figures/research/interactive_image_registration.png>]
-<figures/research/SP_Screenshot.png, id=596, 1267.73625pt x 803.0pt>
+<figures/research/SP_Screenshot.png, id=599, 1267.73625pt x 803.0pt>
 File: figures/research/SP_Screenshot.png Graphic file (type png)
 
 <use figures/research/SP_Screenshot.png>
 Package pdftex.def Info: figures/research/SP_Screenshot.png used on input line 
-605.
+623.
 (pdftex.def)             Requested size: 273.14922pt x 173.00922pt.
 
-Overfull \hbox (1.95564pt too wide) in paragraph at lines 613--629
+Overfull \hbox (1.95564pt too wide) in paragraph at lines 631--647
 \OT1/ptm/m/it/10.95 Abstract: \OT1/ptm/m/n/10.95 A cen-tral prob-lem in cranio-
 maxillofacial (CMF) surgery is to re-store the nor-mal anatomy
  []
 
 [44 <./figures/research/SP_Screenshot.png>]
-<figures/research/orbit_project_figure1.png, id=606, 711.65875pt x 914.41624pt>
+<figures/research/orbit_project_figure1.png, id=609, 711.65875pt x 914.41624pt>
 File: figures/research/orbit_project_figure1.png Graphic file (type png)
 <use figures/research/orbit_project_figure1.png>
 Package pdftex.def Info: figures/research/orbit_project_figure1.png used on inp
-ut line 629.
+ut line 647.
 (pdftex.def)             Requested size: 213.39067pt x 256.07666pt.
  [45 <./figures/research/orbit_project_figure1.png>]
-<figures/research/orbit_project_figure2.png, id=615, 1129.21875pt x 752.8125pt>
+<figures/research/orbit_project_figure2.png, id=618, 1129.21875pt x 752.8125pt>
 File: figures/research/orbit_project_figure2.png Graphic file (type png)
 <use figures/research/orbit_project_figure2.png>
 Package pdftex.def Info: figures/research/orbit_project_figure2.png used on inp
-ut line 633.
+ut line 651.
 (pdftex.def)             Requested size: 409.71689pt x 273.14886pt.
  [46 <./figures/research/orbit_project_figure2.png>]
-<figures/research/wrist_project_figure1a.png, id=624, 249.2069pt x 401.72151pt>
+<figures/research/wrist_project_figure1a.png, id=627, 249.2069pt x 401.72151pt>
 File: figures/research/wrist_project_figure1a.png Graphic file (type png)
 <use figures/research/wrist_project_figure1a.png>
 Package pdftex.def Info: figures/research/wrist_project_figure1a.png used on in
-put line 654.
+put line 672.
 (pdftex.def)             Requested size: 182.09485pt x 293.53622pt.
 
-<figures/research/wrist_project_figure1b.png, id=625, 476.59135pt x 768.27568pt
+<figures/research/wrist_project_figure1b.png, id=628, 476.59135pt x 768.27568pt
 >
 File: figures/research/wrist_project_figure1b.png Graphic file (type png)
  <use figures/research/wrist_project_figure1b.png>
 Package pdftex.def Info: figures/research/wrist_project_figure1b.png used on in
-put line 656.
+put line 674.
 (pdftex.def)             Requested size: 182.09485pt x 293.54211pt.
  [47 <./figures/research/wrist_project_figure1a.png> <./figures/research/wrist_
 project_figure1b.png>]
 [48] [49
 
 ]
-Overfull \hbox (3.06407pt too wide) in paragraph at lines 752--752
+Overfull \hbox (3.06407pt too wide) in paragraph at lines 770--770
 []\OT1/ptm/m/n/10.95 weight se-quence dis-tance func-tions, where weighted neig
 h-bor-hood se-quences of in-finte length
  []
 
-[50] [51] <figures/research/cba_ar.png, id=659, 282.93706pt x 219.9417pt>
+[50] [51] <figures/research/cba_ar.png, id=661, 282.93706pt x 219.9417pt>
 File: figures/research/cba_ar.png Graphic file (type png)
 
 <use figures/research/cba_ar.png>
-Package pdftex.def Info: figures/research/cba_ar.png used on input line 816.
+Package pdftex.def Info: figures/research/cba_ar.png used on input line 834.
 (pdftex.def)             Requested size: 273.14922pt x 212.35315pt.
  [52
 
  <./figures/research/cba_ar.png>]
-<figures/research/foce_all.png, id=669, 264.99pt x 277.63725pt>
+<figures/research/foce_all.png, id=671, 264.99pt x 277.63725pt>
 File: figures/research/foce_all.png Graphic file (type png)
 
 <use figures/research/foce_all.png>
-Package pdftex.def Info: figures/research/foce_all.png used on input line 835.
+Package pdftex.def Info: figures/research/foce_all.png used on input line 853.
 (pdftex.def)             Requested size: 273.14922pt x 286.20679pt.
  [53 <./figures/research/foce_all.png>]
-<figures/research/bees1.png, id=678, 1622.06pt x 995.72pt>
+<figures/research/bees1.png, id=680, 1622.06pt x 995.72pt>
 File: figures/research/bees1.png Graphic file (type png)
 
 <use figures/research/bees1.png>
-Package pdftex.def Info: figures/research/bees1.png used on input line 889.
+Package pdftex.def Info: figures/research/bees1.png used on input line 907.
 (pdftex.def)             Requested size: 386.96024pt x 237.5343pt.
  [54]
-<figures/research/fritjof.pdf, id=689, 318.18875pt x 198.7425pt>
+<figures/research/fritjof.pdf, id=691, 318.18875pt x 198.7425pt>
 File: figures/research/fritjof.pdf Graphic file (type pdf)
 
 <use figures/research/fritjof.pdf>
-Package pdftex.def Info: figures/research/fritjof.pdf used on input line 905.
+Package pdftex.def Info: figures/research/fritjof.pdf used on input line 923.
 (pdftex.def)             Requested size: 273.14922pt x 170.60892pt.
  [55 <./figures/research/bees1.png (PNG copy)> <./figures/research/fritjof.pdf>
 ] [56]) (./AR2014_copartners.tex [57
 
 ]
 [58]) (./AR2014_publications.tex
-<./figures/CBA_pub_2013.pdf, id=718, 844.95674pt x 597.432pt>
+<./figures/CBA_pub_2013.pdf, id=720, 844.95674pt x 597.432pt>
 File: ./figures/CBA_pub_2013.pdf Graphic file (type pdf)
 
 <use ./figures/CBA_pub_2013.pdf>
@@ -1707,7 +1376,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1110--1116
  []
 
 ) [95] (./AR2014_committees.tex
-<./figures/tidsskrifter_AR_2013.pdf, id=1111, 722.7pt x 542.025pt>
+<./figures/tidsskrifter_AR_2013.pdf, id=1113, 722.7pt x 542.025pt>
 File: ./figures/tidsskrifter_AR_2013.pdf Graphic file (type pdf)
 
 <use ./figures/tidsskrifter_AR_2013.pdf>
@@ -1763,15 +1432,15 @@ Overfull \hbox (4.81673pt too wide) in paragraph at lines 493--496
  []
 
 [100] [101])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
  [102]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (./AnnualReport2014.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
 Package rerunfilecheck Info: File `AnnualReport2014.out' has not changed.
 (rerunfilecheck)             Checksum: 0E0C8B66B9796EB749501CE666475826;2368.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
  )
 (\end occurred inside a group at level 3)
 
@@ -1780,32 +1449,31 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
 ### simple group (level 1) entered at line 76 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 7933 strings out of 493315
- 118269 string characters out of 6137905
- 200085 words of memory out of 5000000
- 10694 multiletter control sequences out of 15000+600000
- 36427 words of font info for 83 fonts, out of 8000000 for 9000
+ 7870 strings out of 493315
+ 117790 string characters out of 6137905
+ 199972 words of memory out of 5000000
+ 10632 multiletter control sequences out of 15000+600000
+ 34501 words of font info for 80 fonts, out of 8000000 for 9000
  959 hyphenation exceptions out of 8191
  34i,12n,29p,2491b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm
--super-ts1.enc}{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/loca
-l/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on AnnualReport2014.pdf (103 pages, 22458291 bytes).
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on AnnualReport2014.pdf (103 pages, 22460348 bytes).
 PDF statistics:
- 1318 PDF objects out of 1440 (max. 8388607)
- 1100 compressed objects within 11 object streams
- 488 named destinations out of 1000 (max. 500000)
+ 1320 PDF objects out of 1440 (max. 8388607)
+ 1101 compressed objects within 12 object streams
+ 489 named destinations out of 1000 (max. 500000)
  468 words of extra memory for PDF output out of 10000 (max. 10000000)
 

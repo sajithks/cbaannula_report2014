@@ -210,12 +210,14 @@ The MiniTEM was launched and displayed at the International Microscopy Congress 
 % CCC
 \vspace*{-2mm}
 \item 
-\textbf{\color{red}Detection and Localization of Florescent Signals in STORM Data Using Compressed Sensing}\\
+\textbf{Detection and Localization of Florescent Signals in STORM Data Using Compressed Sensing}\\
 Omer Ishaq, Alexandra Pacureanu, Carolina W\"{a}hlby\\
 \ppartners{Johan Elf, Gustaf Ullman, Fredrik Persson, Dept.~of Cell \& Molecular Biology, UU}
 \ffunding{SciLifeLab Uppsala, eSSENCE, VR junior researcher grant to CW}
 \pperiod{1211-}
-\aabstract{Stochastic optical reconstruction microscopy (STORM) is a super-resolution microscopy image acquisition technique for single-molecule localization. Like other stochastic super-resolution microscopy techniques it incorporates a trade-off between spatial- and temporal-resolution. Recently, a compressed-sensing (CS) based variant of STORM, called FasterSTORM, has been developed which substantially increases the temporal sampling of a stack of STORM image frames. This improvement is realized by increasing the density of activated fluorophores in each frame, followed by a subsequent CS-based retrieval of single-molecule positions even with overlapping fluorescent signals.  However, the CS-based retrieval/decoding step is time consuming and can take as much as three hours for each image frame. We have accelerated the FasterSTORM method through parallel processing on multi-core processors. Additionally, we have tested and tried a number of L\raisebox{-.4ex}{\scriptsize 1}-solvers for CS-based recovery of molecule positions. A paper comparing convex and greedy solvers and evaluating the sensitivity of the FasterSTORM to estimation bias of the point spread function (PSF) was submitted to a conference. We are in the process of comparing the performance of the Faster STORM against a wavelet-based approach to localize fluorescent signals in time-lapse images of bacterial cells.}
+\aabstract{Stochastic optical reconstruction microscopy (STORM) is a super-resolution microscopy image acquisition technique for single-molecule localization. Like other stochastic super-resolution microscopy techniques it incorporates a trade-off between spatial- and temporal-resolution. Recently, a compressed-sensing (CS) based variant of STORM, called FasterSTORM, has been developed which substantially increases the temporal sampling of a stack of STORM image frames. This improvement is realized by increasing the density of activated fluorophores in each frame, followed by a subsequent CS-based retrieval of single-molecule positions even with overlapping fluorescent signals. However, the CS-based retrieval/decoding step is time consuming and can take as much as three hours for each image frame. We have accelerated the FasterSTORM method through parallel processing on multi-core processors. Additionally, we have tested and tried a number of L1-solvers for CS-based recovery of molecule positions. We are in the process of comparing the performance of the Faster STORM against a wavelet-based approach to localize fluorescent signals in time-lapse images of bacterial cells.
+	
+In 2014 a paper comparing convex and greedy solvers and evaluating the sensitivity of the FasterSTORM to estimation bias of the point spread function (PSF) was accepted for oral presentation at the $22^{nd}$ International Conference on Pattern Recognition (ICPR).}
 
 %DDD
 
@@ -297,7 +299,7 @@ Developed tools are also applied in a cell cycle analysis project realized toget
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.85\textwidth]{figures/research/stemcell.png}
-	\caption{(A) Sample cancer stem cells image. Figures (B) and (C) present histograms of one of the automatically extracted features – DNA content per cell. (B) The different phases of the cell cycle can be identified based on the DNA content in negative control cells, by assuming that cells spend the majority of their time with either two (2N phase) or four (4N phase) copies of the DNA. Cells from different cell lines respond in a slightly different way to the same drug treatments, and (C) shows DNA histograms for treatments that arrest part of the cell population in the 4N phase.} 
+	\caption{(A) Sample cancer stem cells image. Figures (B) and (C) present histograms of one of the automatically extracted features DNA content per cell. (B) The different phases of the cell cycle can be identified based on the DNA content in negative control cells, by assuming that cells spend the majority of their time with either two ($2N$ phase) or four ($4N$ phase) copies of the DNA. Cells from different cell lines respond in a slightly different way to the same drug treatments, and (C) shows DNA histograms for treatments that arrest part of the cell population in the $4N$ phase.} 
 	\label{fig:stemcell}
 \end{figure}
 
@@ -326,7 +328,7 @@ Ewert Bengtsson, Patrik Malm, Bo Nordin\\
 	
 The CerviScan project is an initiative from the Indian government, managed by the research institute CDAC in cooperation with the Regional Cancer Centre (RCC) in Kerala and CBA in Sweden, aimed at creating a low cost, automated screening system. The system will reduce the number of cytotechnologists needed for population screening by identifying and removing specimen that are clearly normal. A prototype system has been created and used to screen over 1000 specimen. Initial classification results are promising but screening times are still about 10 times longer than what is realistic in a real screening setting. Plans for the next phase of the project, focusing on dedicated hardware, are awaiting the result of a funding application in India.
  
-A subproject on developing improved ways of describing the nuclear chromatin patterns based on new image analysis methods has been spun off and is describe as project XX ({\color{red}Advanced methods for reliable and cost efficient image processing in life sciences})
+A subproject on developing improved ways of describing the nuclear chromatin patterns based on new image analysis methods has been spun off and is describe as project \ref{proj:high_prec_lifeSci} (Advanced methods for reliable and cost efficient image processing in life sciences)
 
 The project has resulted in several recent publications and a PhD thesis: "Image Analysis in Support of Computer-Assisted Cervical Cancer Screening" which was defended February 7, 2014 by Patrik Malm.
 }
@@ -424,7 +426,7 @@ During 2014, Andreas defended his PhD thesis \textit{Image Analysis Methods and 
 Ingrid Carlbom, Christophe Avenel\\
 \ppartners{Christer Busch, Department of Surgical Sciences, and Anna Tolf, Department of Genetics and Pathology, University Hospital}
 \ffunding{Vetenskapsrådet (2009-5418 and 2012-3667): 394.5 K SEK ; Funding: Hagstrandska fonden: 300K SEK.}
-\pperiod{2014-01-01 –- 2014-12-31}
+\pperiod{2014-01-01--2014-12-31}
 \aabstract{\textit{Online Prostate Tissue Grading Tool: }Using our OpenSeaDragon-based image selection tool we built an image database of 650 small images from whole mount sections, where each image has one dominant pattern that represents a malignancy grade, precancerous tissue, or benign tissue. With our online grading tool, fourteen internationally prominent pathologists from seven countries are in the process of grading these images according to the Gleason system. (See Figure \ref{fig:userintpros}.) 
 	
 With 50\% of the images graded, we see similar grade variations as seen in other studies; for example, in 43\% of the cases more than three pathologists disagree. But unlike other studies on intra- and interobserver grading variation, which are based on entire biopsies or whole mounts, each image in our study contains only one dominant pattern, allowing us to identify patterns that cause the discrepancies. Our goal is to establish a consensus for these patterns, thereby promoting international grading standardization.
@@ -476,7 +478,23 @@ Petter Ranefall, Alexandra Pacureanu, Carolina W\"{a}hlby, Thu Tran\\
 \ppartners{Mats Nilsson, Thomas Hauling, Marco Mignardi, Jessica Svedlund, Elin Lundin,Xiaoyan Qian, Department of Biochemistry and Biophysics and SciLifeLab, Stockholm University.}
 \ffunding{SciLifeLab}
 \pperiod{1308--}
-\aabstract{The aim is to create a tool for full resolution image analysis of large images, e.g. slide scanner data, with the possibility of visual examination and interaction at multiple resolutions. The tool is built on a free and open-source framework for visual examination at multiple resolutions with the option to toggle results on or off, such as segmentation masks, classification results, and tissue morphology measurements, using a map view with seamless zooming and panning capabilities, allowing for fast navigation between a full-tissue view and high-resolution sub-cellular observations. The aim is to also have an interface that enables visual/manual selection of regions of interest, target discovery, and understanding of novel spatial relationships within the tissue environment. A bachelor thesis project with the aim of designing the user interface was carried out by the student Thu Tran. This user interface has then been extended with full functionality into a system that we call ‘TissueMaps’, which is now being evaluated at Mats Nilsson’s lab. During 2014 ‘TissueMaps’ has also been presented/demonstrated at some different conferences: BioImage Informatics in Leuven, Belgium, eSSENCE in Ume\aa, SSBA in Lule\aa, and the Nordic Symposium on Digital Pathology in Link\"oping.}
+\aabstract{The aim is to create a tool for full resolution image analysis of large images, e.g. slide scanner data, with the possibility of visual examination and interaction at multiple resolutions. The tool is built on a free and open-source framework for visual examination at multiple resolutions with the option to toggle results on or off, such as segmentation masks, classification results, and tissue morphology measurements, using a map view with seamless zooming and panning capabilities, allowing for fast navigation between a full-tissue view and high-resolution sub-cellular observations. The aim is to also have an interface that enables visual/manual selection of regions of interest, target discovery, and understanding of novel spatial relationships within the tissue environment. A bachelor thesis project with the aim of designing the user interface was carried out by the student Thu Tran. This user interface has then been extended with full functionality into a system that we call 'TissueMaps', which is now being evaluated at Mats Nilsson's lab. During 2014 'TissueMaps' has also been presented/demonstrated at some different conferences: BioImage Informatics in Leuven, Belgium, eSSENCE in Ume\aa, SSBA in Lule\aa, and the Nordic Symposium on Digital Pathology in Link\"oping.}
+
+%%%
+
+\item
+\label{proj:high_prec_lifeSci}
+\textbf{Advanced methods for reliable and cost efficient image processing in life sciences}\\
+Nata\v{s}a Sladoje, Ewert Bengtsson,  Ida-Maria Sintorn  \\
+\ppartners{Joakim Lindblad, Faculty of Technical Sciences, University of Novi Sad, Serbia}
+\ffunding{Swedish Governmental Agency for Innovation Systems (VINNOVA); UU TN-faculty }
+\pperiod{1308--}
+\aabstract{Within this project we aim at advancing the state-of-the-art methods of digital image processing and analysis, so that some of the societally important and highly challenging and relevant research task in life sciences can be successfully addressed.  Our goal is to increase reliability and efficiency, as well as robustness against variations in preparation quality, of computer assisted image analysis in two particular research tracks, related to two applications: (1) Chromatin distribution analysis for cervical cancer diagnostics, and (2) virus detection and recognition in TEM images. 
+	
+Advances in cyto-patological research combined with the desire for as early as possible cancer detection, have put focus on the analysis of very subtle changes in the chromatin structure of cell nuclei. The application related to recognition and classification of viruses	is focused on development of efficient methods adjusted to less expensive equipment, by that increasing applicability and usefulness of the results for a wider community. Efficient utilization of available images data to characterize barely resolved structures, is crucial in both cases. The intention is to use results from resent theoretical work within the framework of discrete mathematics, where  knowledge from the field of fuzzy sets is combined with explicit usage of intensity and shape information in images. This theoretical framework provides methods which enable preservation and efficient usage of information, aggregate information of different types, improve robustness of the developed methods and increase precision of the analysis results. Based on conducted studies, the developed framework has shown high potential in applications where efficient utilization of information is of importance and where reliability of the analysis results and their timely delivery are both required. }
+
+
+
 
 
 
